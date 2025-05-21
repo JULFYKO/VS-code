@@ -1,5 +1,5 @@
 function MinofTwo(a, b) {
-  return a < b ? a : b;
+    return a < b ? a : b;
 }
 
 function numToPowerOf(num, power) {
