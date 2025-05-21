@@ -1,8 +1,8 @@
 let numbert1 = prompt("Enter a number");
-if (numbert1>0) {
+if (numbert1 > 0) {
     console.log("positive");
 }
-else if (number<0) {
+else if (number < 0) {
     console.log("negative");
 }
 else {
@@ -10,7 +10,7 @@ else {
 }
 //----------------------------
 let age = prompt("Enter your age");
-if (age>=0 && age<=120) {
+if (age >= 0 && age <= 120) {
     console.log("ok");
 }
 else {
