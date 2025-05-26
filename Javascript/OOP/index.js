@@ -67,8 +67,8 @@ class NewsFeed {
 const printer = new PrintMachine('48px','green','Arial');
 printer.print('Hello, world!');
 
-const n1 = new NewsItem('Lorem','Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit a ipsam necessitatibus nemo deserunt quidem dolore fugiat? Omnis doloribus facilis neque placeat corporis dolorum aliquam adipisci, assumenda in, aspernatur illum.',['tech','js'],'2025-05-24');
-const n2 = new NewsItem('lorem','Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos nam a ea assumenda excepturi illo nisi cumque, provident in! Nobis vero assumenda ex, nostrum laboriosam laborum? Maxime beatae vero perspiciatis.',['life'],'2025-05-20');
+const n1 = new NewsItem('Lorem','Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit a ipsam necessitatibus nemo deserunt quidem dolore fugiat? Omnis doloribus facilis neque placeat corporis dolorum aliquam adipisci, assumenda in, aspernatur illum.',['tag1','jtag2'],'2025-05-24');
+const n2 = new NewsItem('lorem','Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos nam a ea assumenda excepturi illo nisi cumque, provident in! Nobis vero assumenda ex, nostrum laboriosam laborum? Maxime beatae vero perspiciatis.',['lorem'],'2025-05-20');
 const feed = new NewsFeed();
 feed.add(n1);
 feed.add(n2);
