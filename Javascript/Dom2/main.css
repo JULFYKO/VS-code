@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f5ede6;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+#counterSection input {
+  font-size: 2em;
+  width: 100px;
+  text-align: center;
+  user-select: none;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.color-block {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  border: 1px solid #000;
+}
+
+#text {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+.palette {
+  display: flex;
+  gap: 10px;
+}
+
+.color-cell {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  border: 1px solid #000;
+}
