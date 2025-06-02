@@ -4,43 +4,30 @@ for (let i = 0; i <= 20; i++) {
 }
 console.log(arr);
 
-for (let i = 0; i < arr.length; i++) {
-    console.log(`[${i}] ${arr[i]}`);
-}
+arr.forEach((val, i) => console.log(`[${i}] ${val}`));
 
-for (let i = 0; i < arr.length; i++) {
-    if (arr[i] % 7 === 0) {
-        console.log(`Divisible by 7: [${i}] ${arr[i]}`);
-    }
-}
+arr.forEach((val, i) => {
+    if (val % 7 === 0) console.log(`Divisible by 7: [${i}] ${val}`);
+});
 
-arr.sort((a, b) => b - a);
-console.log("Sorted array:", arr);
+let sortedArr = [...arr].sort((a, b) => b - a);
+console.log("Sorted array:", sortedArr);
 
-for (let i = Math.floor(arr.length / 2); i < arr.length; i++) {
-    arr[i] = 0;
-}
-console.log("Modified array:", arr);
+let modifiedArr = [...arr];
+modifiedArr.fill(0, Math.floor(modifiedArr.length / 2));
+console.log("Modified array:", modifiedArr);
 
-arr.splice(0, 3);
-console.log("Array:", arr);
+let splicedArr = arr.slice(3);
+console.log("Array:", splicedArr);
 
-for (let i = 0; i < arr.length; i++) {
-    for (let j = i + 1; j < arr.length; j++) {
-        if (arr[i] === arr[j]) {
-            console.log(`Duplicate: [${i}] ${arr[i]} and [${j}] ${arr[j]}`);
-        }
-    }
-}
+arr.forEach((val, i) => {
+    arr.slice(i + 1).forEach((v, j) => {
+        if (val === v) console.log(`Duplicate: [${i}] ${val} and [${i + 1 + j}] ${v}`);
+    });
+});
 
+let Newarr = arr.slice(1, -1);
+console.log("New array:", Newarr, "\nold array:", arr);
 
-Newarr = arr.slice(1, -1);
-console.log("New array:", Newarr,"\nold array:", arr);
-
-let sum = 0;
-for (let i = 0; i < arr.length; i++) {
-    if (arr[i] % 2 === 0) {
-        sum++;
-    }
-}
+let sum = arr.filter(x => x % 2 === 0).length;
 console.log("Sum:", sum);
