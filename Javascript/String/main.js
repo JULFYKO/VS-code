@@ -24,7 +24,7 @@ function InformationOfUrl(url) {
     };
 }
 console.log(countSpaces("Lorem ipsum dolor sit amet."));
-console.log(FirstSymbolToUpperCase("lorem ipsum dolor sit amet.")); 
+console.log(FirstSymbolToUpperCase("lorem ipsum dolor sit amet."));
 console.log(NumberWords("Lorem ipsum dolor sit amet."));
 console.log(ToAbreviation("Lorem ipsum dolor sit amet."));
 console.log(IsPalindrome("qwertyuioppoiuytrewq"));
