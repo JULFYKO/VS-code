@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>Working with Forms</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe aliquid commodi beatae nihil neque nostrum odit?
+        Culpa, ut. Earum aperiam ea delectus harum consequatur corrupti voluptate quibusdam labore id vitae.</p>
+
+    <h2>Create New Product</h2>
+    <form name="carForm">
+    <label>Model:
+        <input type="text" name="model" required>
+    </label>
+    <label>Year:
+        <input type="number" min="1886" max="2100" name="year" required>
+    </label>
+    <label>Color:
+        <select name="color" required>
+            <option value="">Select color</option>
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="black">Black</option>
+            <option value="white">White</option>
+            <option value="green">Green</option>
+        </select>
+    </label>
+    <label>Electric:
+        <input type="checkbox" name="electric">
+    </label>
+    <button type="reset">Cancel</button>
+    <button id="addBtn" type="submit">Create</button>
+</form>
+
+<h2>Cars List</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Model</th>
+            <th>Year</th>
+            <th>Color</th>
+            <th>Electric</th>
+        </tr>
+    </thead>
+    <tbody id="cars-list"></tbody>
+</table>
+
+    <script src="./product.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
