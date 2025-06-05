@@ -4,16 +4,16 @@
     "KEY_OPTION3": "j",
     "KEY_OPTION4": "k",
     "photo_size": [
-        268,
-        268
+        720,
+        720
     ],
     "final_photo_size": [
         500,
         500
     ],
     "auto_save_interval": 30000,
-    "tournament_type": "One Round",
-    "num_choices": 2,
+    "tournament_type": "Single Elimination",
+    "num_choices": 4,
     "top_n_enabled": false,
     "top_n_value": 1
 }

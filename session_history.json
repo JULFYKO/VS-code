@@ -1753,5 +1753,173 @@
                 "k": 0
             }
         }
+    },
+    {
+        "timestamp": "Thu Jun  5 19:53:19 2025",
+        "match_log": [
+            {
+                "round": 1,
+                "match": 1,
+                "choices": [
+                    "C:/Users/User/Pictures/Screenshots\\Снимок экрана (2).png",
+                    "C:/Users/User/Pictures/Screenshots\\Снимок экрана (8).png",
+                    "C:/Users/User/Pictures/Screenshots\\Снимок экрана (14).png",
+                    "C:/Users/User/Pictures/Screenshots\\Снимок экрана (23).png"
+                ],
+                "winner": "C:/Users/User/Pictures/Screenshots\\Снимок экрана (2).png",
+                "decision_time": 6.215847492218018
+            },
+            {
+                "round": 1,
+                "match": 2,
+                "choices": [
+                    "C:/Users/User/Pictures/Screenshots\\Снимок экрана (36).png",
+                    "C:/Users/User/Pictures/Screenshots\\Снимок экрана (4).png",
+                    "C:/Users/User/Pictures/Screenshots\\Снимок экрана (24).png",
+                    "C:/Users/User/Pictures/Screenshots\\Снимок экрана (35).png"
+                ],
+                "winner": "C:/Users/User/Pictures/Screenshots\\Снимок экрана (4).png",
+                "decision_time": 3.820929527282715
+            },
+            {
+                "round": 1,
+                "match": 3,
+                "choices": [
+                    "C:/Users/User/Pictures/Screenshots\\Снимок экрана (27).png",
+                    "C:/Users/User/Pictures/Screenshots\\Снимок экрана (13).png",
+                    "C:/Users/User/Pictures/Screenshots\\Снимок экрана (16).png",
+                    "C:/Users/User/Pictures/Screenshots\\Снимок экрана (3).png"
+                ],
+                "winner": "C:/Users/User/Pictures/Screenshots\\Снимок экрана (16).png",
+                "decision_time": 1.6855168342590332
+            },
+            {
+                "round": 1,
+                "match": 4,
+                "choices": [
+                    "C:/Users/User/Pictures/Screenshots\\Снимок экрана (33).png",
+                    "C:/Users/User/Pictures/Screenshots\\Снимок экрана (6).png",
+                    "C:/Users/User/Pictures/Screenshots\\Снимок экрана (28).png",
+                    "C:/Users/User/Pictures/Screenshots\\Снимок экрана (29).png"
+                ],
+                "winner": "C:/Users/User/Pictures/Screenshots\\Снимок экрана (6).png",
+                "decision_time": 2.073160171508789
+            },
+            {
+                "round": 1,
+                "match": 5,
+                "choices": [
+                    "C:/Users/User/Pictures/Screenshots\\Снимок экрана (15).png",
+                    "C:/Users/User/Pictures/Screenshots\\Снимок экрана (9).png",
+                    "C:/Users/User/Pictures/Screenshots\\Снимок экрана (19).png",
+                    "C:/Users/User/Pictures/Screenshots\\Снимок экрана (34).png"
+                ],
+                "winner": "C:/Users/User/Pictures/Screenshots\\Снимок экрана (9).png",
+                "decision_time": 1.057438850402832
+            },
+            {
+                "round": 1,
+                "match": 6,
+                "choices": [
+                    "C:/Users/User/Pictures/Screenshots\\Снимок экрана (32).png",
+                    "C:/Users/User/Pictures/Screenshots\\Снимок экрана (25).png",
+                    "C:/Users/User/Pictures/Screenshots\\Снимок экрана (17).png",
+                    "C:/Users/User/Pictures/Screenshots\\Снимок экрана (5).png"
+                ],
+                "winner": "C:/Users/User/Pictures/Screenshots\\Снимок экрана (5).png",
+                "decision_time": 1.537318229675293
+            },
+            {
+                "round": 1,
+                "match": 7,
+                "choices": [
+                    "C:/Users/User/Pictures/Screenshots\\Снимок экрана (26).png",
+                    "C:/Users/User/Pictures/Screenshots\\Снимок экрана (20).png",
+                    "C:/Users/User/Pictures/Screenshots\\Снимок экрана (21).png",
+                    "C:/Users/User/Pictures/Screenshots\\Снимок экрана (1).png"
+                ],
+                "winner": "C:/Users/User/Pictures/Screenshots\\Снимок экрана (1).png",
+                "decision_time": 0.9519965648651123
+            },
+            {
+                "round": 1,
+                "match": 8,
+                "choices": [
+                    "C:/Users/User/Pictures/Screenshots\\Снимок экрана (10).png",
+                    "C:/Users/User/Pictures/Screenshots\\Снимок экрана (30).png",
+                    "C:/Users/User/Pictures/Screenshots\\Снимок экрана (11).png",
+                    "C:/Users/User/Pictures/Screenshots\\Снимок экрана (7).png"
+                ],
+                "winner": "C:/Users/User/Pictures/Screenshots\\Снимок экрана (10).png",
+                "decision_time": 0.8092808723449707
+            },
+            {
+                "round": 1,
+                "match": 9,
+                "choices": [
+                    "C:/Users/User/Pictures/Screenshots\\Снимок экрана (18).png",
+                    "C:/Users/User/Pictures/Screenshots\\Снимок экрана (12).png",
+                    "C:/Users/User/Pictures/Screenshots\\Снимок экрана (22).png",
+                    "C:/Users/User/Pictures/Screenshots\\Снимок экрана (31).png"
+                ],
+                "winner": "C:/Users/User/Pictures/Screenshots\\Снимок экрана (22).png",
+                "decision_time": 0.968869686126709
+            },
+            {
+                "round": 2,
+                "match": 1,
+                "choices": [
+                    "C:/Users/User/Pictures/Screenshots\\Снимок экрана (4).png",
+                    "C:/Users/User/Pictures/Screenshots\\Снимок экрана (16).png",
+                    "C:/Users/User/Pictures/Screenshots\\Снимок экрана (10).png",
+                    "C:/Users/User/Pictures/Screenshots\\Снимок экрана (5).png"
+                ],
+                "winner": "C:/Users/User/Pictures/Screenshots\\Снимок экрана (4).png",
+                "decision_time": 1.295865774154663
+            },
+            {
+                "round": 2,
+                "match": 2,
+                "choices": [
+                    "C:/Users/User/Pictures/Screenshots\\Снимок экрана (2).png",
+                    "C:/Users/User/Pictures/Screenshots\\Снимок экрана (22).png",
+                    "C:/Users/User/Pictures/Screenshots\\Снимок экрана (9).png",
+                    "C:/Users/User/Pictures/Screenshots\\Снимок экрана (6).png"
+                ],
+                "winner": "C:/Users/User/Pictures/Screenshots\\Снимок экрана (2).png",
+                "decision_time": 0.6420474052429199
+            },
+            {
+                "round": 2,
+                "match": 3,
+                "choices": [
+                    "C:/Users/User/Pictures/Screenshots\\Снимок экрана (1).png"
+                ],
+                "winner": "C:/Users/User/Pictures/Screenshots\\Снимок экрана (1).png",
+                "decision_time": 15.005014896392822
+            },
+            {
+                "round": 3,
+                "match": 1,
+                "choices": [
+                    "C:/Users/User/Pictures/Screenshots\\Снимок экрана (4).png",
+                    "C:/Users/User/Pictures/Screenshots\\Снимок экрана (2).png",
+                    "C:/Users/User/Pictures/Screenshots\\Снимок экрана (1).png"
+                ],
+                "winner": "C:/Users/User/Pictures/Screenshots\\Снимок экрана (2).png",
+                "decision_time": 0.9067888259887695
+            }
+        ],
+        "stats": {
+            "total_decision_time": 51.78339433670044,
+            "num_decisions": 15,
+            "num_undos": 0,
+            "selection_counts": {
+                "d": 5,
+                "f": 5,
+                "j": 2,
+                "k": 3
+            }
+        }
     }
 ]
