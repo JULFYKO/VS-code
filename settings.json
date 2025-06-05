@@ -1,0 +1,25 @@
+{
+  "copy_mode": false,
+  "undo_depth": 20,
+  "auto_skip_seconds": 5,
+  "hotkeys": {
+    "A": [
+      "Travel"
+    ],
+    "S": [
+      "Family"
+    ],
+    "D": [
+      "Work"
+    ],
+    "F": [
+      "Personal"
+    ]
+  },
+  "target_templates": {
+    "Travel": "{yyyy}-{MM}-Travel",
+    "Family": "{yyyy}-{MM}-Family",
+    "Work": "{yyyy}-{MM}-Work",
+    "Personal": "{yyyy}-{MM}-Personal"
+  }
+}

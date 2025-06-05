@@ -1,0 +1,569 @@
+[
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1000@29-11-2024_17-39-14.jpg",
+    "dst": null,
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:01.180203",
+    "groups": [
+      "SKIPPED"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1001@29-11-2024_17-39-14.jpg",
+    "dst": null,
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:06.169401",
+    "groups": [
+      "SKIPPED"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1002@29-11-2024_17-39-14.jpg",
+    "dst": null,
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:11.168922",
+    "groups": [
+      "SKIPPED"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1003@29-11-2024_17-39-14.jpg",
+    "dst": null,
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:16.173101",
+    "groups": [
+      "SKIPPED"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1004@29-11-2024_17-39-14.jpg",
+    "dst": null,
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:21.174505",
+    "groups": [
+      "SKIPPED"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1005@29-11-2024_17-39-14.jpg",
+    "dst": null,
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:26.177380",
+    "groups": [
+      "SKIPPED"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1006@29-11-2024_17-39-14.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Travel\\photo_1006@29-11-2024_17-39-14.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:29.063513",
+    "groups": [
+      "Travel"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1007@29-11-2024_17-39-14.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Family\\photo_1007@29-11-2024_17-39-14.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:29.161511",
+    "groups": [
+      "Family"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1008@29-11-2024_17-39-14.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Work\\photo_1008@29-11-2024_17-39-14.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:29.198514",
+    "groups": [
+      "Work"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1009@29-11-2024_17-39-14.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Personal\\photo_1009@29-11-2024_17-39-14.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:29.349511",
+    "groups": [
+      "Personal"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_100@29-11-2024_17-26-44.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Travel\\photo_100@29-11-2024_17-26-44.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:29.579573",
+    "groups": [
+      "Travel"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1010@29-11-2024_17-39-14.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Family\\photo_1010@29-11-2024_17-39-14.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:29.605575",
+    "groups": [
+      "Family"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1011@29-11-2024_17-39-14.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Work\\photo_1011@29-11-2024_17-39-14.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:29.703746",
+    "groups": [
+      "Work"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1012@29-11-2024_17-39-14.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Personal\\photo_1012@29-11-2024_17-39-14.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:29.817955",
+    "groups": [
+      "Personal"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1013@29-11-2024_17-39-14.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Travel\\photo_1013@29-11-2024_17-39-14.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:30.002770",
+    "groups": [
+      "Travel"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1014@29-11-2024_17-39-14.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Family\\photo_1014@29-11-2024_17-39-14.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:30.037795",
+    "groups": [
+      "Family"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1015@29-11-2024_17-39-14.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Work\\photo_1015@29-11-2024_17-39-14.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:30.094785",
+    "groups": [
+      "Work"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1016@29-11-2024_17-39-14.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Personal\\photo_1016@29-11-2024_17-39-14.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:30.219770",
+    "groups": [
+      "Personal"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1017@29-11-2024_17-39-14.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Travel\\photo_1017@29-11-2024_17-39-14.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:30.439399",
+    "groups": [
+      "Travel"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1018@29-11-2024_17-39-14.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Family\\photo_1018@29-11-2024_17-39-14.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:30.463399",
+    "groups": [
+      "Family"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1019@29-11-2024_17-39-15.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Work\\photo_1019@29-11-2024_17-39-15.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:30.518606",
+    "groups": [
+      "Work"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_101@29-11-2024_17-26-44.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Personal\\photo_101@29-11-2024_17-26-44.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:30.676390",
+    "groups": [
+      "Personal"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1020@29-11-2024_17-39-15.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Travel\\photo_1020@29-11-2024_17-39-15.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:30.912415",
+    "groups": [
+      "Travel"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1021@29-11-2024_17-39-15.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Family\\photo_1021@29-11-2024_17-39-15.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:30.949414",
+    "groups": [
+      "Family"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1022@29-11-2024_17-39-15.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Work\\photo_1022@29-11-2024_17-39-15.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:31.040962",
+    "groups": [
+      "Work"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1023@29-11-2024_17-39-15.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Personal\\photo_1023@29-11-2024_17-39-15.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:31.159975",
+    "groups": [
+      "Personal"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1024@29-11-2024_17-39-15.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Travel\\photo_1024@29-11-2024_17-39-15.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:31.386355",
+    "groups": [
+      "Travel"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1025@29-11-2024_17-39-15.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Family\\photo_1025@29-11-2024_17-39-15.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:31.437751",
+    "groups": [
+      "Family"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1026@29-11-2024_17-39-15.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Work\\photo_1026@29-11-2024_17-39-15.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:31.482769",
+    "groups": [
+      "Work"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1027@29-11-2024_17-39-15.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Work\\photo_1027@29-11-2024_17-39-15.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:31.560074",
+    "groups": [
+      "Work"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1028@29-11-2024_17-39-15.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Personal\\photo_1028@29-11-2024_17-39-15.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:31.605100",
+    "groups": [
+      "Personal"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1029@29-11-2024_17-39-15.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Travel\\photo_1029@29-11-2024_17-39-15.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:31.871555",
+    "groups": [
+      "Travel"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_102@29-11-2024_17-28-10.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Family\\photo_102@29-11-2024_17-28-10.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:31.923135",
+    "groups": [
+      "Family"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1030@29-11-2024_17-39-15.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Work\\photo_1030@29-11-2024_17-39-15.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:31.941134",
+    "groups": [
+      "Work"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1031@29-11-2024_17-39-15.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Personal\\photo_1031@29-11-2024_17-39-15.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:32.089907",
+    "groups": [
+      "Personal"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1032@29-11-2024_17-39-15.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Travel\\photo_1032@29-11-2024_17-39-15.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:32.323318",
+    "groups": [
+      "Travel"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1033@29-11-2024_17-39-15.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Family\\photo_1033@29-11-2024_17-39-15.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:32.375342",
+    "groups": [
+      "Family"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1034@29-11-2024_17-39-15.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Work\\photo_1034@29-11-2024_17-39-15.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:32.398356",
+    "groups": [
+      "Work"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1035@29-11-2024_17-39-15.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Personal\\photo_1035@29-11-2024_17-39-15.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:32.515537",
+    "groups": [
+      "Personal"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1036@29-11-2024_17-39-15.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Travel\\photo_1036@29-11-2024_17-39-15.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:32.673577",
+    "groups": [
+      "Travel"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1037@29-11-2024_17-39-15.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Family\\photo_1037@29-11-2024_17-39-15.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:32.713580",
+    "groups": [
+      "Family"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1038@29-11-2024_17-39-15.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Work\\photo_1038@29-11-2024_17-39-15.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:32.741578",
+    "groups": [
+      "Work"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1039@29-11-2024_17-39-15.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Personal\\photo_1039@29-11-2024_17-39-15.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:32.865096",
+    "groups": [
+      "Personal"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_103@29-11-2024_17-28-10.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Family\\photo_103@29-11-2024_17-28-10.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:32.974414",
+    "groups": [
+      "Family"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1040@29-11-2024_17-39-15.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Travel\\photo_1040@29-11-2024_17-39-15.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:32.991431",
+    "groups": [
+      "Travel"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1041@29-11-2024_17-39-15.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Work\\photo_1041@29-11-2024_17-39-15.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:33.029414",
+    "groups": [
+      "Work"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1042@29-11-2024_17-39-15.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Personal\\photo_1042@29-11-2024_17-39-15.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:33.131488",
+    "groups": [
+      "Personal"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1043@29-11-2024_17-39-15.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Travel\\photo_1043@29-11-2024_17-39-15.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:33.242878",
+    "groups": [
+      "Travel"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1044@29-11-2024_17-39-15.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Family\\photo_1044@29-11-2024_17-39-15.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:33.282892",
+    "groups": [
+      "Family"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1045@29-11-2024_17-39-15.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Work\\photo_1045@29-11-2024_17-39-15.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:33.312900",
+    "groups": [
+      "Work"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1046@29-11-2024_17-39-15.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Personal\\photo_1046@29-11-2024_17-39-15.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:33.433509",
+    "groups": [
+      "Personal"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1047@29-11-2024_17-39-15.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Family\\photo_1047@29-11-2024_17-39-15.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:33.554435",
+    "groups": [
+      "Family"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1048@29-11-2024_17-39-15.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Work\\photo_1048@29-11-2024_17-39-15.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:33.587455",
+    "groups": [
+      "Work"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1049@29-11-2024_17-39-15.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Personal\\photo_1049@29-11-2024_17-39-15.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:33.732648",
+    "groups": [
+      "Personal"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_104@29-11-2024_17-28-10.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Travel\\photo_104@29-11-2024_17-28-10.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:33.876263",
+    "groups": [
+      "Travel"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1050@29-11-2024_17-39-15.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Family\\photo_1050@29-11-2024_17-39-15.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:33.894262",
+    "groups": [
+      "Family"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1051@29-11-2024_17-39-15.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Work\\photo_1051@29-11-2024_17-39-15.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:33.933313",
+    "groups": [
+      "Work"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1052@29-11-2024_17-39-15.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Personal\\photo_1052@29-11-2024_17-39-15.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:34.053986",
+    "groups": [
+      "Personal"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1053@29-11-2024_17-39-15.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Family\\photo_1053@29-11-2024_17-39-15.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:34.180421",
+    "groups": [
+      "Family"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1054@29-11-2024_17-39-15.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Travel\\photo_1054@29-11-2024_17-39-15.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:34.242421",
+    "groups": [
+      "Travel"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1055@29-11-2024_17-39-15.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Work\\photo_1055@29-11-2024_17-39-15.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:34.290421",
+    "groups": [
+      "Work"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1056@29-11-2024_17-39-15.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Personal\\photo_1056@29-11-2024_17-39-15.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:34.354422",
+    "groups": [
+      "Personal"
+    ]
+  },
+  {
+    "src": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\photo_1057@29-11-2024_17-39-15.jpg",
+    "dst": "C:/Users/User/Downloads/Telegram Desktop/ChatExport_2025-03-03/photos\\Sorted_photos_2025-06-04\\2025-06-Travel\\photo_1057@29-11-2024_17-39-15.jpg",
+    "action": "move",
+    "timestamp": "2025-06-04T23:16:34.478453",
+    "groups": [
+      "Travel"
+    ]
+  }
+]
