@@ -112,6 +112,7 @@ class FlashSortMediaOrganizer:
             ';': "Category ;"
         }
         self.load_config()
+        # TODO: Allow dynamic adding/removing of categories and keys in the UI
         
         # Set primary language to English
         self.language = "en"
@@ -143,17 +144,19 @@ class FlashSortMediaOrganizer:
             with open(self.config_file, "r", encoding="utf-8") as f:
                 config = json.load(f)
             self.key_mappings = config.get("key_mappings", self.key_mappings)
+            # TODO: Load additional user preferences (e.g., last used folder, filters)
         except Exception:
             pass
-        
+
     def save_config(self):
         config = {"key_mappings": self.key_mappings}
         try:
             with open(self.config_file, "w", encoding="utf-8") as f:
                 json.dump(config, f, ensure_ascii=False, indent=4)
+            # TODO: Save additional user preferences if needed
         except Exception as e:
             print("Error saving configuration:", e)
-        
+
     def setup_styles(self):
         style = ttk.Style(self.root)
         style.theme_use("clam")
@@ -162,7 +165,8 @@ class FlashSortMediaOrganizer:
         style.configure("Title.TLabel", background=self.BG_COLOR, foreground=self.FG_COLOR, font=self.FONT_TITLE)
         style.configure("Instr.TLabel", background=self.BG_COLOR, foreground=self.FG_COLOR, font=self.FONT_INSTR)
         style.configure("Status.TLabel", background=self.BUTTON_BG, foreground=self.FG_COLOR, font=self.FONT_MAIN)
-        
+        # TODO: Add support for dark/light theme switching
+
     # --- Header with title and instruction text ---
     def create_header(self):
         self.header_frame = ttk.Frame(self.root)
@@ -176,6 +180,7 @@ class FlashSortMediaOrganizer:
                       "E: Open Sorted Folder | Space: Configure Keys")
         instr = ttk.Label(self.header_frame, text=instr_text, style="Instr.TLabel", anchor="center")
         instr.pack(fill=tk.X, pady=(5,0))
+        # TODO: Add language switcher or settings button in header if needed
         
     # --- Fixed toolbar with function buttons (visible for mouse control) ---
     def create_toolbar(self):
@@ -212,7 +217,8 @@ class FlashSortMediaOrganizer:
         
         btn_help = ttk.Button(self.toolbar_frame, text="Help", command=self.show_help)
         btn_help.pack(side=tk.LEFT, padx=5)
-        
+        # TODO: Add buttons for advanced features (duplicates, grouping, filters, report)
+
     # --- Main layout (left: file list; right: media preview) ---
     def create_main_layout(self):
         self.main_frame = ttk.Frame(self.root)
@@ -233,7 +239,8 @@ class FlashSortMediaOrganizer:
         self.preview_frame.pack(side=tk.RIGHT, fill=tk.BOTH, expand=True, padx=5, pady=5)
         self.media_label = ttk.Label(self.preview_frame, anchor="center")
         self.media_label.pack(fill=tk.BOTH, expand=True)
-        
+        # TODO: Add drag-and-drop support for files
+
     # --- Status bar ---
     def create_status_bar(self):
         self.status_frame = ttk.Frame(self.root)
@@ -371,6 +378,7 @@ class FlashSortMediaOrganizer:
                 photo = ImageTk.PhotoImage(img)
                 self.media_label.config(image=photo, text="")
                 self.media_label.image = photo
+                # TODO: Add zoom and pan for images
             except Exception:
                 self.media_label.config(text="Image load error", image="")
             self.remove_video_controls()
@@ -379,8 +387,10 @@ class FlashSortMediaOrganizer:
             self.remove_video_controls()
         elif file_path.lower().endswith(('.mp4', '.avi', '.mov')):
             self.show_video(file_path)
+            # TODO: Add support for more video formats and codecs
         elif file_path.lower().endswith(('.mp3', '.wav', '.flac')):
             self.show_audio(file_path)
+            # TODO: Add audio waveform visualization
         else:
             self.media_label.config(text="Unsupported format", image="")
             self.remove_video_controls()
@@ -412,6 +422,7 @@ class FlashSortMediaOrganizer:
             self.after_id = self.root.after(self.gif_delays[0], self.update_gif_frame)
         except Exception:
             self.media_label.config(text="GIF load error", image="")
+        # TODO: Add controls for pausing/playing GIFs
 
     def update_gif_frame(self):
         if not hasattr(self, 'gif_frames') or not self.gif_frames:
@@ -554,6 +565,7 @@ class FlashSortMediaOrganizer:
             )
         except Exception:
             self.audio_proc = None
+        # TODO: Use cross-platform audio playback library if ffplay is not available
 
     def stop_audio_playback(self):
         if hasattr(self, 'audio_proc') and self.audio_proc is not None:
@@ -584,6 +596,7 @@ class FlashSortMediaOrganizer:
     def show_audio(self, file_path):
         self.media_label.config(text="Playing audio...", image="")
         self.start_audio_playback(file_path)
+        
     def move_file_by_key(self, key):
         if self.current_index is None or self.current_index >= len(self.file_list):
             return
@@ -594,6 +607,7 @@ class FlashSortMediaOrganizer:
         dest_folder = os.path.join(self.source_folder, folder_name)
         if not os.path.exists(dest_folder):
             os.makedirs(dest_folder)
+            # TODO: Handle errors if folder cannot be created
         current_file = self.file_list[self.current_index]
         src = os.path.join(self.source_folder, current_file)
         dst = os.path.join(dest_folder, current_file)
@@ -656,6 +670,7 @@ class FlashSortMediaOrganizer:
                     self.last_move = None
                     self.choose_source_folder()  # Reload file list
                     self.show_feedback("Undo performed")
+                    # TODO: Restore previous selection after undo
                 except Exception as e:
                     messagebox.showerror("Error", f"Failed to undo last action: {e}")
             else:
@@ -714,11 +729,13 @@ class FlashSortMediaOrganizer:
             config_win.destroy()
         btn_save = ttk.Button(config_win, text="Save", command=save_config)
         btn_save.grid(row=row, column=0, columnspan=2, pady=10)
-        
+        # TODO: Allow adding/removing key-folder pairs dynamically in the UI
+
     def change_language(self):
         self.language = "ua" if self.language == "en" else "en"
         messagebox.showinfo("Language Change", f"Language set to {self.language.upper()}. Please restart the application for changes to take effect.")
-        
+        # TODO: Implement full language switching for all UI elements
+
     def show_help(self):
         help_text = (
             "NeonSort Media Organizer – Help\n\n"
@@ -905,7 +922,8 @@ class FlashSortMediaOrganizer:
             filter_win.destroy()
         btn_apply = ttk.Button(filter_win, text="Apply", command=apply)
         btn_apply.grid(row=3, column=0, columnspan=2, pady=10)
-        
+        # TODO: Add more filter options (date, resolution, etc.)
+
 if __name__ == "__main__":
     root = tk.Tk()
     app = FlashSortMediaOrganizer(root)
