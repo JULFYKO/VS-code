@@ -1,0 +1,332 @@
+Photo Tournament Log
+===========================
+Round 1, Match 1: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (1) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (1).png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (1).png, Decision Time: 3.47s
+Round 1, Match 1: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (1) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (1).png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (1).png, Decision Time: 3.66s
+Round 1, Match 2: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (10) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (10).png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (10).png, Decision Time: 0.00s
+Round 1, Match 3: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (100) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (101) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (101) — копия.png, Decision Time: 0.03s
+Round 1, Match 4: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (102) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (103) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (103) — копия.png, Decision Time: 0.03s
+Round 1, Match 5: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (104) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (105) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (105) — копия.png, Decision Time: 0.05s
+Round 1, Match 6: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (106) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (107) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (107) — копия.png, Decision Time: 0.03s
+Round 1, Match 7: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (108) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (109) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (109) — копия.png, Decision Time: 0.04s
+Round 1, Match 8: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (11) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (11).png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (11).png, Decision Time: 0.04s
+Round 1, Match 9: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (110) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (111) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (111) — копия.png, Decision Time: 0.03s
+Round 1, Match 11: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (114) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (115) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (115) — копия.png, Decision Time: 0.91s
+Round 1, Match 11: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (114) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (115) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (114) — копия.png, Decision Time: 1.03s
+Round 1, Match 11: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (114) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (115) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (115) — копия.png, Decision Time: 1.16s
+Round 1, Match 12: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (116) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (117) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (116) — копия.png, Decision Time: 0.00s
+Round 1, Match 13: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (118) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (119) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (119) — копия.png, Decision Time: 0.00s
+Round 1, Match 14: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (12) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (12).png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (12) — копия.png, Decision Time: 0.00s
+Round 1, Match 15: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (120) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (121) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (121) — копия.png, Decision Time: 0.00s
+Round 1, Match 15: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (120) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (121) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (120) — копия.png, Decision Time: 0.01s
+Round 1, Match 16: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (122) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (123) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (123) — копия.png, Decision Time: 0.06s
+Round 1, Match 17: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (124) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (125) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (124) — копия.png, Decision Time: 0.02s
+Round 1, Match 19: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (128) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (129) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (129) — копия.png, Decision Time: 0.00s
+Round 1, Match 20: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (13) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (13).png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (13) — копия.png, Decision Time: 0.00s
+Round 1, Match 21: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (130) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (131) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (131) — копия.png, Decision Time: 0.02s
+Round 1, Match 21: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (130) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (131) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (130) — копия.png, Decision Time: 0.08s
+Round 1, Match 23: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (134) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (135) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (135) — копия.png, Decision Time: 0.00s
+Round 1, Match 25: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (138) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (139) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (138) — копия.png, Decision Time: 0.00s
+Round 1, Match 25: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (138) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (139) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (139) — копия.png, Decision Time: 0.01s
+Round 1, Match 25: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (138) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (139) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (138) — копия.png, Decision Time: 0.10s
+Round 1, Match 26: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (14) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (14).png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (14).png, Decision Time: 0.04s
+Round 1, Match 28: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (142) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (143) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (142) — копия.png, Decision Time: 0.00s
+Round 1, Match 29: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (144) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (145) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (145) — копия.png, Decision Time: 0.00s
+Round 1, Match 30: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (146) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (147) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (146) — копия.png, Decision Time: 0.00s
+Round 1, Match 30: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (146) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (147) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (147) — копия.png, Decision Time: 0.10s
+Round 1, Match 32: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (15) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (15).png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (15) — копия.png, Decision Time: 0.00s
+Round 1, Match 33: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (150) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (151) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (151) — копия.png, Decision Time: 0.00s
+Round 1, Match 34: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (152) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (153) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (152) — копия.png, Decision Time: 0.00s
+Round 1, Match 35: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (154) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (155) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (155) — копия.png, Decision Time: 0.00s
+Round 1, Match 35: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (154) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (155) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (154) — копия.png, Decision Time: 0.03s
+Round 1, Match 37: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (158) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (159) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (159) — копия.png, Decision Time: 0.00s
+Round 1, Match 37: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (158) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (159) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (158) — копия.png, Decision Time: 0.07s
+Round 1, Match 39: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (160) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (161) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (161) — копия.png, Decision Time: 0.00s
+Round 1, Match 39: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (160) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (161) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (160) — копия.png, Decision Time: 0.07s
+Round 1, Match 41: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (164) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (165) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (165) — копия.png, Decision Time: 0.00s
+Round 1, Match 42: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (166) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (167) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (166) — копия.png, Decision Time: 0.00s
+Round 1, Match 43: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (168) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (169) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (169) — копия.png, Decision Time: 0.02s
+Round 1, Match 44: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (17) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (17).png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (17) — копия.png, Decision Time: 0.00s
+Round 1, Match 45: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (170) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (171) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (171) — копия.png, Decision Time: 0.00s
+Round 1, Match 46: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (172) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (173) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (172) — копия.png, Decision Time: 0.00s
+Round 1, Match 47: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (174) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (175) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (175) — копия.png, Decision Time: 0.00s
+Round 1, Match 48: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (176) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (177) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (176) — копия.png, Decision Time: 0.00s
+Round 1, Match 49: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (178) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (179) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (179) — копия.png, Decision Time: 0.00s
+Round 1, Match 50: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (18) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (18).png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (18) — копия.png, Decision Time: 0.00s
+Round 1, Match 51: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (180) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (181) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (181) — копия.png, Decision Time: 0.00s
+Round 1, Match 52: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (182) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (183) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (182) — копия.png, Decision Time: 0.00s
+Round 1, Match 53: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (184) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (185) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (185) — копия.png, Decision Time: 0.00s
+Round 1, Match 54: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (186) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (187) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (186) — копия.png, Decision Time: 0.00s
+Round 1, Match 56: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (19) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (19).png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (19) — копия.png, Decision Time: 0.00s
+Round 1, Match 57: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (190) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (191) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (191) — копия.png, Decision Time: 0.03s
+Round 1, Match 58: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (192) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (193) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (192) — копия.png, Decision Time: 0.00s
+Round 1, Match 58: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (192) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (193) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (193) — копия.png, Decision Time: 0.10s
+Round 1, Match 59: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (194) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (195) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (194) — копия.png, Decision Time: 0.03s
+Round 1, Match 60: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (196) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (197) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (197) — копия.png, Decision Time: 0.00s
+Round 1, Match 61: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (198) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (199) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (198) — копия.png, Decision Time: 0.03s
+Round 1, Match 62: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (2) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (2).png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (2).png, Decision Time: 0.05s
+Round 1, Match 63: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (20) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (20).png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (20) — копия.png, Decision Time: 0.00s
+Round 1, Match 64: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (200) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (201) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (201) — копия.png, Decision Time: 0.03s
+Round 1, Match 65: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (202) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (203) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (202) — копия.png, Decision Time: 0.00s
+Round 1, Match 66: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (204) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (205) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (205) — копия.png, Decision Time: 0.00s
+Round 1, Match 67: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (206) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (207) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (206) — копия.png, Decision Time: 0.00s
+Round 1, Match 68: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (208) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (209) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (209) — копия.png, Decision Time: 0.00s
+Round 1, Match 69: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (21) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (21).png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (21) — копия.png, Decision Time: 0.00s
+Round 1, Match 70: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (210) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (211) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (211) — копия.png, Decision Time: 0.00s
+Round 1, Match 71: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (212) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (213) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (212) — копия.png, Decision Time: 0.00s
+Round 1, Match 72: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (214) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (215) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (215) — копия.png, Decision Time: 0.00s
+Round 1, Match 73: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (216) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (217) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (216) — копия.png, Decision Time: 0.00s
+Round 1, Match 74: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (218) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (219) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (219) — копия.png, Decision Time: 0.00s
+Round 1, Match 75: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (22) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (22).png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (22) — копия.png, Decision Time: 0.00s
+Round 1, Match 76: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (220) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (221) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (221) — копия.png, Decision Time: 0.00s
+Round 1, Match 77: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (222) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (223) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (222) — копия.png, Decision Time: 0.00s
+Round 1, Match 78: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (224) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (225) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (225) — копия.png, Decision Time: 0.00s
+Round 1, Match 79: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (226) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (227) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (226) — копия.png, Decision Time: 0.00s
+Round 1, Match 79: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (226) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (227) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (227) — копия.png, Decision Time: 0.06s
+Round 1, Match 80: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (228) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (229) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (228) — копия.png, Decision Time: 0.01s
+Round 1, Match 82: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (230) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (231) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (231) — копия.png, Decision Time: 0.00s
+Round 1, Match 84: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (234) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (235) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (234) — копия.png, Decision Time: 0.00s
+Round 1, Match 84: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (234) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (235) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (235) — копия.png, Decision Time: 0.00s
+Round 1, Match 85: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (236) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (237) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (237) — копия.png, Decision Time: 0.02s
+Round 1, Match 87: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (24) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (24).png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (24).png, Decision Time: 0.00s
+Round 1, Match 88: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (240) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (241) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (241) — копия.png, Decision Time: 0.09s
+Round 1, Match 88: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (240) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (241) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (241) — копия.png, Decision Time: 0.12s
+Round 1, Match 89: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (242) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (243) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (243) — копия.png, Decision Time: 0.00s
+Round 1, Match 89: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (242) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (243) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (243) — копия.png, Decision Time: 0.00s
+Round 1, Match 89: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (242) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (243) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (243) — копия.png, Decision Time: 0.04s
+Round 1, Match 89: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (242) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (243) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (243) — копия.png, Decision Time: 0.07s
+Round 1, Match 89: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (242) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (243) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (243) — копия.png, Decision Time: 0.10s
+Round 1, Match 89: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (242) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (243) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (243) — копия.png, Decision Time: 0.14s
+Round 1, Match 89: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (242) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (243) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (243) — копия.png, Decision Time: 0.17s
+Round 1, Match 90: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (244) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (245) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (245) — копия.png, Decision Time: 0.00s
+Round 1, Match 91: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (246) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (247) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (247) — копия.png, Decision Time: 0.00s
+Round 1, Match 94: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (250) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (251) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (251) — копия.png, Decision Time: 0.00s
+Round 1, Match 99: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (26) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (26).png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (26).png, Decision Time: 0.00s
+Round 1, Match 101: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (262) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (263) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (263) — копия.png, Decision Time: 0.00s
+Round 1, Match 101: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (262) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (263) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (263) — копия.png, Decision Time: 0.03s
+Round 1, Match 101: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (262) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (263) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (263) — копия.png, Decision Time: 0.06s
+Round 1, Match 101: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (262) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (263) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (263) — копия.png, Decision Time: 0.09s
+Round 1, Match 102: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (264) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (265) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (265) — копия.png, Decision Time: 0.00s
+Round 1, Match 102: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (264) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (265) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (265) — копия.png, Decision Time: 0.03s
+Round 1, Match 102: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (264) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (265) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (265) — копия.png, Decision Time: 0.06s
+Round 1, Match 102: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (264) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (265) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (265) — копия.png, Decision Time: 0.09s
+Round 1, Match 103: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (266) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (267) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (267) — копия.png, Decision Time: 0.00s
+Round 1, Match 105: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (27) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (27).png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (27).png, Decision Time: 0.00s
+Round 1, Match 108: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (274) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (275) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (275) — копия.png, Decision Time: 0.00s
+Round 1, Match 111: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (28) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (28).png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (28).png, Decision Time: 0.00s
+Round 1, Match 112: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (280) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (281) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (281) — копия.png, Decision Time: 0.00s
+Round 1, Match 113: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (282) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (283) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (283) — копия.png, Decision Time: 0.00s
+Round 1, Match 113: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (282) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (283) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (283) — копия.png, Decision Time: 0.03s
+Round 1, Match 113: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (282) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (283) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (283) — копия.png, Decision Time: 0.06s
+Round 1, Match 113: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (282) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (283) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (283) — копия.png, Decision Time: 0.09s
+Round 1, Match 113: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (282) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (283) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (283) — копия.png, Decision Time: 0.14s
+Round 1, Match 114: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (284) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (285) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (285) — копия.png, Decision Time: 0.00s
+Round 1, Match 115: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (286) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (287) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (287) — копия.png, Decision Time: 0.00s
+Round 1, Match 116: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (288) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (29) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (29) — копия.png, Decision Time: 0.00s
+Round 1, Match 118: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (3).png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (30) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (30) — копия.png, Decision Time: 0.00s
+Round 1, Match 121: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (32).png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (33) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (33) — копия.png, Decision Time: 0.00s
+Round 1, Match 123: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (34).png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (35) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (35) — копия.png, Decision Time: 0.00s
+Round 1, Match 124: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (35).png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (36) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (36) — копия.png, Decision Time: 0.00s
+Round 1, Match 124: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (35).png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (36) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (36) — копия.png, Decision Time: 0.02s
+Round 1, Match 124: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (35).png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (36) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (36) — копия.png, Decision Time: 0.06s
+Round 1, Match 125: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (36).png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (37) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (37) — копия.png, Decision Time: 0.00s
+Round 1, Match 125: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (36).png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (37) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (37) — копия.png, Decision Time: 0.01s
+Round 1, Match 125: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (36).png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (37) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (37) — копия.png, Decision Time: 0.04s
+Round 1, Match 125: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (36).png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (37) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (37) — копия.png, Decision Time: 0.07s
+Round 1, Match 126: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (38) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (39) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (39) — копия.png, Decision Time: 0.00s
+Round 1, Match 128: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (40) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (41) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (41) — копия.png, Decision Time: 0.00s
+Round 1, Match 131: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (46) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (47) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (47) — копия.png, Decision Time: 0.00s
+Round 1, Match 134: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (50) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (51) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (51) — копия.png, Decision Time: 0.00s
+Round 1, Match 135: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (52) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (53) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (52) — копия.png, Decision Time: 0.00s
+Round 1, Match 136: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (54) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (55) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (55) — копия.png, Decision Time: 0.05s
+Round 1, Match 138: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (58) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (59) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (58) — копия.png, Decision Time: 0.00s
+Round 1, Match 139: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (6) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (6).png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (6).png, Decision Time: 0.00s
+Round 1, Match 139: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (6) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (6).png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (6) — копия.png, Decision Time: 0.07s
+Round 1, Match 140: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (60) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (61) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (61) — копия.png, Decision Time: 0.00s
+Round 1, Match 142: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (64) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (65) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (64) — копия.png, Decision Time: 0.00s
+Round 1, Match 142: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (64) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (65) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (65) — копия.png, Decision Time: 0.03s
+Round 1, Match 143: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (66) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (67) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (66) — копия.png, Decision Time: 0.00s
+Round 1, Match 143: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (66) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (67) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (67) — копия.png, Decision Time: 0.10s
+Round 1, Match 146: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (70) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (71) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (70) — копия.png, Decision Time: 0.00s
+Round 1, Match 147: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (72) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (73) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (73) — копия.png, Decision Time: 0.03s
+Round 1, Match 147: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (72) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (73) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (72) — копия.png, Decision Time: 0.13s
+Round 1, Match 148: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (74) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (75) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (75) — копия.png, Decision Time: 0.00s
+Round 1, Match 149: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (76) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (77) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (76) — копия.png, Decision Time: 0.00s
+Round 1, Match 150: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (78) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (79) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (79) — копия.png, Decision Time: 0.01s
+Round 1, Match 151: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (8) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (8).png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (8) — копия.png, Decision Time: 0.00s
+Round 1, Match 152: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (80) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (81) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (81) — копия.png, Decision Time: 0.00s
+Round 1, Match 153: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (82) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (83) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (82) — копия.png, Decision Time: 0.00s
+Round 1, Match 154: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (84) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (85) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (85) — копия.png, Decision Time: 0.00s
+Round 1, Match 154: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (84) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (85) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (84) — копия.png, Decision Time: 0.03s
+Round 1, Match 156: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (88) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (89) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (89) — копия.png, Decision Time: 0.00s
+Round 1, Match 156: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (88) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (89) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (88) — копия.png, Decision Time: 0.06s
+Round 1, Match 158: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (90) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (91) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (91) — копия.png, Decision Time: 0.00s
+Round 1, Match 158: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (90) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (91) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (90) — копия.png, Decision Time: 0.05s
+Round 1, Match 160: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (94) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (95) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (95) — копия.png, Decision Time: 0.02s
+Round 1, Match 162: ['C:/Users/User/Pictures/Screenshots\\Снимок экрана (98) — копия.png', 'C:/Users/User/Pictures/Screenshots\\Снимок экрана (99) — копия.png'] -> Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (99) — копия.png, Decision Time: 0.04s
+
+Winners (Ranked):
+1. C:/Users/User/Pictures/Screenshots\Снимок экрана (1).png
+2. C:/Users/User/Pictures/Screenshots\Снимок экрана (1).png
+3. C:/Users/User/Pictures/Screenshots\Снимок экрана (10).png
+4. C:/Users/User/Pictures/Screenshots\Снимок экрана (101) — копия.png
+5. C:/Users/User/Pictures/Screenshots\Снимок экрана (103) — копия.png
+6. C:/Users/User/Pictures/Screenshots\Снимок экрана (105) — копия.png
+7. C:/Users/User/Pictures/Screenshots\Снимок экрана (107) — копия.png
+8. C:/Users/User/Pictures/Screenshots\Снимок экрана (109) — копия.png
+9. C:/Users/User/Pictures/Screenshots\Снимок экрана (11).png
+10. C:/Users/User/Pictures/Screenshots\Снимок экрана (111) — копия.png
+11. C:/Users/User/Pictures/Screenshots\Снимок экрана (115) — копия.png
+12. C:/Users/User/Pictures/Screenshots\Снимок экрана (114) — копия.png
+13. C:/Users/User/Pictures/Screenshots\Снимок экрана (115) — копия.png
+14. C:/Users/User/Pictures/Screenshots\Снимок экрана (116) — копия.png
+15. C:/Users/User/Pictures/Screenshots\Снимок экрана (119) — копия.png
+16. C:/Users/User/Pictures/Screenshots\Снимок экрана (12) — копия.png
+17. C:/Users/User/Pictures/Screenshots\Снимок экрана (121) — копия.png
+18. C:/Users/User/Pictures/Screenshots\Снимок экрана (120) — копия.png
+19. C:/Users/User/Pictures/Screenshots\Снимок экрана (123) — копия.png
+20. C:/Users/User/Pictures/Screenshots\Снимок экрана (124) — копия.png
+21. C:/Users/User/Pictures/Screenshots\Снимок экрана (129) — копия.png
+22. C:/Users/User/Pictures/Screenshots\Снимок экрана (13) — копия.png
+23. C:/Users/User/Pictures/Screenshots\Снимок экрана (131) — копия.png
+24. C:/Users/User/Pictures/Screenshots\Снимок экрана (130) — копия.png
+25. C:/Users/User/Pictures/Screenshots\Снимок экрана (135) — копия.png
+26. C:/Users/User/Pictures/Screenshots\Снимок экрана (138) — копия.png
+27. C:/Users/User/Pictures/Screenshots\Снимок экрана (139) — копия.png
+28. C:/Users/User/Pictures/Screenshots\Снимок экрана (138) — копия.png
+29. C:/Users/User/Pictures/Screenshots\Снимок экрана (14).png
+30. C:/Users/User/Pictures/Screenshots\Снимок экрана (142) — копия.png
+31. C:/Users/User/Pictures/Screenshots\Снимок экрана (145) — копия.png
+32. C:/Users/User/Pictures/Screenshots\Снимок экрана (146) — копия.png
+33. C:/Users/User/Pictures/Screenshots\Снимок экрана (147) — копия.png
+34. C:/Users/User/Pictures/Screenshots\Снимок экрана (15) — копия.png
+35. C:/Users/User/Pictures/Screenshots\Снимок экрана (151) — копия.png
+36. C:/Users/User/Pictures/Screenshots\Снимок экрана (152) — копия.png
+37. C:/Users/User/Pictures/Screenshots\Снимок экрана (155) — копия.png
+38. C:/Users/User/Pictures/Screenshots\Снимок экрана (154) — копия.png
+39. C:/Users/User/Pictures/Screenshots\Снимок экрана (159) — копия.png
+40. C:/Users/User/Pictures/Screenshots\Снимок экрана (158) — копия.png
+41. C:/Users/User/Pictures/Screenshots\Снимок экрана (161) — копия.png
+42. C:/Users/User/Pictures/Screenshots\Снимок экрана (160) — копия.png
+43. C:/Users/User/Pictures/Screenshots\Снимок экрана (165) — копия.png
+44. C:/Users/User/Pictures/Screenshots\Снимок экрана (166) — копия.png
+45. C:/Users/User/Pictures/Screenshots\Снимок экрана (169) — копия.png
+46. C:/Users/User/Pictures/Screenshots\Снимок экрана (17) — копия.png
+47. C:/Users/User/Pictures/Screenshots\Снимок экрана (171) — копия.png
+48. C:/Users/User/Pictures/Screenshots\Снимок экрана (172) — копия.png
+49. C:/Users/User/Pictures/Screenshots\Снимок экрана (175) — копия.png
+50. C:/Users/User/Pictures/Screenshots\Снимок экрана (176) — копия.png
+51. C:/Users/User/Pictures/Screenshots\Снимок экрана (179) — копия.png
+52. C:/Users/User/Pictures/Screenshots\Снимок экрана (18) — копия.png
+53. C:/Users/User/Pictures/Screenshots\Снимок экрана (181) — копия.png
+54. C:/Users/User/Pictures/Screenshots\Снимок экрана (182) — копия.png
+55. C:/Users/User/Pictures/Screenshots\Снимок экрана (185) — копия.png
+56. C:/Users/User/Pictures/Screenshots\Снимок экрана (186) — копия.png
+57. C:/Users/User/Pictures/Screenshots\Снимок экрана (19) — копия.png
+58. C:/Users/User/Pictures/Screenshots\Снимок экрана (191) — копия.png
+59. C:/Users/User/Pictures/Screenshots\Снимок экрана (192) — копия.png
+60. C:/Users/User/Pictures/Screenshots\Снимок экрана (193) — копия.png
+61. C:/Users/User/Pictures/Screenshots\Снимок экрана (194) — копия.png
+62. C:/Users/User/Pictures/Screenshots\Снимок экрана (197) — копия.png
+63. C:/Users/User/Pictures/Screenshots\Снимок экрана (198) — копия.png
+64. C:/Users/User/Pictures/Screenshots\Снимок экрана (2).png
+65. C:/Users/User/Pictures/Screenshots\Снимок экрана (20) — копия.png
+66. C:/Users/User/Pictures/Screenshots\Снимок экрана (201) — копия.png
+67. C:/Users/User/Pictures/Screenshots\Снимок экрана (202) — копия.png
+68. C:/Users/User/Pictures/Screenshots\Снимок экрана (205) — копия.png
+69. C:/Users/User/Pictures/Screenshots\Снимок экрана (206) — копия.png
+70. C:/Users/User/Pictures/Screenshots\Снимок экрана (209) — копия.png
+71. C:/Users/User/Pictures/Screenshots\Снимок экрана (21) — копия.png
+72. C:/Users/User/Pictures/Screenshots\Снимок экрана (211) — копия.png
+73. C:/Users/User/Pictures/Screenshots\Снимок экрана (212) — копия.png
+74. C:/Users/User/Pictures/Screenshots\Снимок экрана (215) — копия.png
+75. C:/Users/User/Pictures/Screenshots\Снимок экрана (216) — копия.png
+76. C:/Users/User/Pictures/Screenshots\Снимок экрана (219) — копия.png
+77. C:/Users/User/Pictures/Screenshots\Снимок экрана (22) — копия.png
+78. C:/Users/User/Pictures/Screenshots\Снимок экрана (221) — копия.png
+79. C:/Users/User/Pictures/Screenshots\Снимок экрана (222) — копия.png
+80. C:/Users/User/Pictures/Screenshots\Снимок экрана (225) — копия.png
+81. C:/Users/User/Pictures/Screenshots\Снимок экрана (226) — копия.png
+82. C:/Users/User/Pictures/Screenshots\Снимок экрана (227) — копия.png
+83. C:/Users/User/Pictures/Screenshots\Снимок экрана (228) — копия.png
+84. C:/Users/User/Pictures/Screenshots\Снимок экрана (231) — копия.png
+85. C:/Users/User/Pictures/Screenshots\Снимок экрана (234) — копия.png
+86. C:/Users/User/Pictures/Screenshots\Снимок экрана (235) — копия.png
+87. C:/Users/User/Pictures/Screenshots\Снимок экрана (237) — копия.png
+88. C:/Users/User/Pictures/Screenshots\Снимок экрана (24).png
+89. C:/Users/User/Pictures/Screenshots\Снимок экрана (241) — копия.png
+90. C:/Users/User/Pictures/Screenshots\Снимок экрана (241) — копия.png
+91. C:/Users/User/Pictures/Screenshots\Снимок экрана (243) — копия.png
+92. C:/Users/User/Pictures/Screenshots\Снимок экрана (243) — копия.png
+93. C:/Users/User/Pictures/Screenshots\Снимок экрана (243) — копия.png
+94. C:/Users/User/Pictures/Screenshots\Снимок экрана (243) — копия.png
+95. C:/Users/User/Pictures/Screenshots\Снимок экрана (243) — копия.png
+96. C:/Users/User/Pictures/Screenshots\Снимок экрана (243) — копия.png
+97. C:/Users/User/Pictures/Screenshots\Снимок экрана (243) — копия.png
+98. C:/Users/User/Pictures/Screenshots\Снимок экрана (245) — копия.png
+99. C:/Users/User/Pictures/Screenshots\Снимок экрана (247) — копия.png
+100. C:/Users/User/Pictures/Screenshots\Снимок экрана (251) — копия.png
+101. C:/Users/User/Pictures/Screenshots\Снимок экрана (26).png
+102. C:/Users/User/Pictures/Screenshots\Снимок экрана (263) — копия.png
+103. C:/Users/User/Pictures/Screenshots\Снимок экрана (263) — копия.png
+104. C:/Users/User/Pictures/Screenshots\Снимок экрана (263) — копия.png
+105. C:/Users/User/Pictures/Screenshots\Снимок экрана (263) — копия.png
+106. C:/Users/User/Pictures/Screenshots\Снимок экрана (265) — копия.png
+107. C:/Users/User/Pictures/Screenshots\Снимок экрана (265) — копия.png
+108. C:/Users/User/Pictures/Screenshots\Снимок экрана (265) — копия.png
+109. C:/Users/User/Pictures/Screenshots\Снимок экрана (265) — копия.png
+110. C:/Users/User/Pictures/Screenshots\Снимок экрана (267) — копия.png
+111. C:/Users/User/Pictures/Screenshots\Снимок экрана (27).png
+112. C:/Users/User/Pictures/Screenshots\Снимок экрана (275) — копия.png
+113. C:/Users/User/Pictures/Screenshots\Снимок экрана (28).png
+114. C:/Users/User/Pictures/Screenshots\Снимок экрана (281) — копия.png
+115. C:/Users/User/Pictures/Screenshots\Снимок экрана (283) — копия.png
+116. C:/Users/User/Pictures/Screenshots\Снимок экрана (283) — копия.png
+117. C:/Users/User/Pictures/Screenshots\Снимок экрана (283) — копия.png
+118. C:/Users/User/Pictures/Screenshots\Снимок экрана (283) — копия.png
+119. C:/Users/User/Pictures/Screenshots\Снимок экрана (283) — копия.png
+120. C:/Users/User/Pictures/Screenshots\Снимок экрана (285) — копия.png
+121. C:/Users/User/Pictures/Screenshots\Снимок экрана (287) — копия.png
+122. C:/Users/User/Pictures/Screenshots\Снимок экрана (29) — копия.png
+123. C:/Users/User/Pictures/Screenshots\Снимок экрана (30) — копия.png
+124. C:/Users/User/Pictures/Screenshots\Снимок экрана (33) — копия.png
+125. C:/Users/User/Pictures/Screenshots\Снимок экрана (35) — копия.png
+126. C:/Users/User/Pictures/Screenshots\Снимок экрана (36) — копия.png
+127. C:/Users/User/Pictures/Screenshots\Снимок экрана (36) — копия.png
+128. C:/Users/User/Pictures/Screenshots\Снимок экрана (36) — копия.png
+129. C:/Users/User/Pictures/Screenshots\Снимок экрана (37) — копия.png
+130. C:/Users/User/Pictures/Screenshots\Снимок экрана (37) — копия.png
+131. C:/Users/User/Pictures/Screenshots\Снимок экрана (37) — копия.png
+132. C:/Users/User/Pictures/Screenshots\Снимок экрана (37) — копия.png
+133. C:/Users/User/Pictures/Screenshots\Снимок экрана (39) — копия.png
+134. C:/Users/User/Pictures/Screenshots\Снимок экрана (41) — копия.png
+135. C:/Users/User/Pictures/Screenshots\Снимок экрана (47) — копия.png
+136. C:/Users/User/Pictures/Screenshots\Снимок экрана (51) — копия.png
+137. C:/Users/User/Pictures/Screenshots\Снимок экрана (52) — копия.png
+138. C:/Users/User/Pictures/Screenshots\Снимок экрана (55) — копия.png
+139. C:/Users/User/Pictures/Screenshots\Снимок экрана (58) — копия.png
+140. C:/Users/User/Pictures/Screenshots\Снимок экрана (6).png
+141. C:/Users/User/Pictures/Screenshots\Снимок экрана (6) — копия.png
+142. C:/Users/User/Pictures/Screenshots\Снимок экрана (61) — копия.png
+143. C:/Users/User/Pictures/Screenshots\Снимок экрана (64) — копия.png
+144. C:/Users/User/Pictures/Screenshots\Снимок экрана (65) — копия.png
+145. C:/Users/User/Pictures/Screenshots\Снимок экрана (66) — копия.png
+146. C:/Users/User/Pictures/Screenshots\Снимок экрана (67) — копия.png
+147. C:/Users/User/Pictures/Screenshots\Снимок экрана (70) — копия.png
+148. C:/Users/User/Pictures/Screenshots\Снимок экрана (73) — копия.png
+149. C:/Users/User/Pictures/Screenshots\Снимок экрана (72) — копия.png
+150. C:/Users/User/Pictures/Screenshots\Снимок экрана (75) — копия.png
+151. C:/Users/User/Pictures/Screenshots\Снимок экрана (76) — копия.png
+152. C:/Users/User/Pictures/Screenshots\Снимок экрана (79) — копия.png
+153. C:/Users/User/Pictures/Screenshots\Снимок экрана (8) — копия.png
+154. C:/Users/User/Pictures/Screenshots\Снимок экрана (81) — копия.png
+155. C:/Users/User/Pictures/Screenshots\Снимок экрана (82) — копия.png
+156. C:/Users/User/Pictures/Screenshots\Снимок экрана (85) — копия.png
+157. C:/Users/User/Pictures/Screenshots\Снимок экрана (84) — копия.png
+158. C:/Users/User/Pictures/Screenshots\Снимок экрана (89) — копия.png
+159. C:/Users/User/Pictures/Screenshots\Снимок экрана (88) — копия.png
+160. C:/Users/User/Pictures/Screenshots\Снимок экрана (91) — копия.png
+161. C:/Users/User/Pictures/Screenshots\Снимок экрана (90) — копия.png
+162. C:/Users/User/Pictures/Screenshots\Снимок экрана (95) — копия.png
+163. C:/Users/User/Pictures/Screenshots\Снимок экрана (99) — копия.png
+
+Final Winner: C:/Users/User/Pictures/Screenshots\Снимок экрана (1).png

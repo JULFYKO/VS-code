@@ -86,7 +86,7 @@ FINAL_PHOTO_SIZE = (500, 500)   # Size for the final image
 PROGRESS_BAR_LENGTH = 300       # Length of progress bar
 
 # Auto-save settings
-AUTO_SAVE_INTERVAL = 30000      # Auto-save interval in milliseconds (30 seconds)
+AUTO_SAVE_INTERVAL = 5000      # Auto-save interval in milliseconds (5 seconds)
 # Save auto-save file in the home directory
 AUTO_SAVE_FILE = os.path.join(os.path.expanduser("~"), "autosave_state.json")
 
@@ -149,6 +149,7 @@ class PhotoTournament:
         self.shuffle = True
         self.seeding = False
         self.custom_bracket = None
+        # TODO: Implement custom bracket logic if needed
         self.round_robin_matches = []
         self.double_elim_losers = []
         self.finalists = []
@@ -405,6 +406,7 @@ class PhotoTournament:
             # One Round: всі фото по 2/4, але лише 1 раунд
             if self.tournament_type == "One Round":
                 self.round = 1
+            # TODO: Add support for additional tournament types if needed
             self.update_info()
             self.update_progress()
             self.next_match()
@@ -459,6 +461,7 @@ class PhotoTournament:
 
             # Double Elimination logic (simplified)
             if self.tournament_type == "Double Elimination":
+                # TODO: Improve double elimination logic for losers bracket and finals
                 total = len(self.photo_paths)
                 if self.match_number * self.num_choices >= total:
                     remainder = total - self.match_number * self.num_choices
@@ -886,6 +889,7 @@ class PhotoTournament:
                 except Exception as e:
                     messagebox.showerror("Error", f"Invalid auto-save interval: {e}")
                 self.tournament_type = type_var.get()
+                # TODO: Validate and handle custom tournament type settings
                 try:
                     new_num = int(num_choices_entry.get())
                     if new_num in (2, 4):
@@ -976,6 +980,7 @@ class PhotoTournament:
             for i, winner in enumerate(self.photo_paths):
                 log_text += f"{i+1}. {winner}\n"
             text_area.insert(tk.END, log_text)
+            # TODO: Add export button for log or advanced log filtering
         except Exception as e:
             messagebox.showerror("Log Error", f"Failed to show log:\n{e}")
 
@@ -1000,6 +1005,7 @@ class PhotoTournament:
             self.append_session_history()
             # Show log window automatically
             self.show_log_window()
+            # TODO: Add option to export/share winner or results
         except Exception as e:
             messagebox.showerror("Winner Error", f"Failed to load final image:\n{e}")
 
@@ -1023,6 +1029,7 @@ class PhotoTournament:
                 "num_undos": 0,
                 "selection_counts": {KEY_LEFT: 0, KEY_RIGHT: 0, KEY_OPTION3: 0, KEY_OPTION4: 0}
             }
+            # TODO: Reset additional state if new features are added
             self.start_round()
         except Exception as e:
             messagebox.showerror("Restart Error", f"Failed to restart tournament:\n{e}")
