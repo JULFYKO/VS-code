@@ -1,0 +1,27 @@
+{
+    "video_source": "1",
+    "language": "uk",
+    "gesture_sensitivity": 1.0,
+    "face_sensitivity": 0.1,
+    "enable_left_hand": true,
+    "enable_right_hand": false,
+    "enable_face": true,
+    "active_face_expressions": [
+        "smile",
+        "mouth_open",
+        "neutral"
+    ],
+    "macros": {},
+    "automation_scripts": [],
+    "media_player": "default",
+    "media_type": "audio",
+    "media_control_mode": "global",
+    "export_format": "json",
+    "export_path": "flashlive_export.json",
+    "export_frequency": 10,
+    "plugins": {},
+    "developer_mode": false,
+    "sessions": [],
+    "profiles": {},
+    "active_profile": "default"
+}
