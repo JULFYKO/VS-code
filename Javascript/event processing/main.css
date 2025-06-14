@@ -1,0 +1,49 @@
+.field {
+    width: 770px;
+    height: 567px;
+    border: 2px solid #333;
+    position: relative;
+    margin: 30px 0;
+    background:  url(https://ashevchenko.kiev.ua/assets/images/articles/football-pole.jpg);
+}
+.ball {
+    width: 40px;
+    height: 40px;
+    background: url(https://w7.pngwing.com/pngs/730/380/png-transparent-football-ball-game-football-white-sport-sports-equipment-thumbnail.png) center center / contain no-repeat;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: left 0.5s, top 0.5s;
+}
+.traffic {
+    width: 60px;
+    height: 180px;
+    background: #222;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.light {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #444;
+}
+.light.red.active {
+    background: red;
+}
+.light.yellow.active {
+    background: yellow;
+}
+.light.green.active {
+    background: green;
+}
+.traffic-btn {
+    display: block;
+    margin: 10px 0;
+}
