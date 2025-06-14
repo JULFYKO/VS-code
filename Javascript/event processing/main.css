@@ -16,34 +16,44 @@
     top: 0;
     transition: left 0.5s, top 0.5s;
 }
-.traffic {
-    width: 60px;
-    height: 180px;
-    background: #222;
-    border-radius: 20px;
-    padding: 10px;
-    margin: 30px 0;
+.traffic-wrap {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     align-items: center;
+    background: #fdf5ee;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    width: max-content;
+    margin: 30px 0;
+}
+.traffic {
+    display: flex;
+    gap: 30px;
+    padding: 10px 20px;
+    border: 2px solid #eee;
+    border-radius: 10px;
+    background: #fdf5ee;
 }
 .light {
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
-    background: #444;
+    background: #888;
+    box-shadow: 0 0 2px #aaa;
+    transition: background 0.2s;
 }
 .light.red.active {
-    background: red;
+    background: rgb(255, 0, 0);
 }
 .light.yellow.active {
-    background: yellow;
+    background: rgb(255, 255, 0);
 }
 .light.green.active {
-    background: green;
+    background: rgb(0, 255, 0);
 }
-.traffic-btn {
-    display: block;
-    margin: 10px 0;
+.btn-wrap {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
 }
+

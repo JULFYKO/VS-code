@@ -17,28 +17,48 @@ field.addEventListener('click', function(e) {
     ball.style.top = y + 'px';
 });
 
+const trafficWrap = document.createElement('div');
+trafficWrap.className = 'traffic-wrap';
+
 const traffic = document.createElement('div');
 traffic.className = 'traffic';
 
-const colors = ['red', 'yellow', 'green'];
-const lights = colors.map(color => {
+const lights = [];
+['red', 'yellow', 'green'].forEach(color => {
     const l = document.createElement('div');
     l.className = 'light';
     traffic.appendChild(l);
-    return l;
+    lights.push(l);
 });
-lights[0].classList.add('active', 'red');
 
 const btn = document.createElement('button');
-btn.textContent = 'Next color';
+btn.textContent = 'NEXT';
 btn.className = 'traffic-btn';
 
-let current = 0;
-btn.onclick = function() {
-    lights.forEach(l => l.className = 'light');
-    current = (current + 1) % 3;
-    lights[current].classList.add('active', colors[current]);
-};
+const btnWrap = document.createElement('div');
+btnWrap.className = 'btn-wrap';
+btnWrap.appendChild(btn);
 
-document.body.appendChild(traffic);
-document.body.appendChild(btn);
+trafficWrap.appendChild(traffic);
+trafficWrap.appendChild(btnWrap);
+
+document.body.appendChild(trafficWrap);
+
+let current = 0;
+function updateLights() {
+    lights.forEach((l, i) => {
+        l.className = 'light';
+        if (i === current) {
+            l.classList.add('active');
+            if (i === 0) l.classList.add('red');
+            if (i === 1) l.classList.add('yellow');
+            if (i === 2) l.classList.add('green');
+        }
+    });
+}
+updateLights();
+
+btn.onclick = function() {
+    current = (current + 1) % 3;
+    updateLights();
+};
