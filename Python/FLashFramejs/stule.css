@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css?family=Inter:400,600&display=swap');
+/* ...variables will be imported from styles/variables.css... */
+
+html, body {
+    box-sizing: border-box;
+    font-family: var(--font-family, 'Inter', 'Segoe UI', Arial, sans-serif);
+    background: var(--color-bg);
+    color: var(--color-text);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+*, *:before, *:after { box-sizing: inherit; }
+
+#app {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.header {
+    background: var(--color-surface);
+    border-radius: 10px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    padding: 18px 18px 12px 18px;
+}
+.header-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.app-title {
+    font-size: 1.7rem;
+    color: var(--color-text);
+    margin: 0;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.subtitle {
+    font-size: 1.1rem;
+    color: var(--color-text-secondary);
+    margin-bottom: 8px;
+}
+.tournament-info {
+    display: flex;
+    gap: 24px;
+    font-size: 1em;
+    margin-bottom: 6px;
+    align-items: center;
+}
+#tournamentType, #topNInfo, #timer {
+    background: var(--color-chip-bg);
+    border-radius: 4px;
+    padding: 2px 10px;
+    color: var(--color-accent);
+}
+#timer {
+    color: var(--color-timer);
+    font-weight: bold;
+    min-width: 60px;
+    text-align: center;
+}
+.hotkeys-hint {
+    font-size: 0.97em;
+    color: var(--color-text-secondary);
+    margin-top: 4px;
+    margin-bottom: 2px;
+}
+.hotkeys-hint span {
+    background: var(--color-chip-bg);
+    border-radius: 3px;
+    padding: 1px 6px;
+    margin: 0 2px;
+    color: var(--color-text);
+    font-family: monospace;
+}
+.progress-bar-outer {
+    background: var(--color-progress-bg);
+    border-radius: 4px;
+    height: 8px;
+    margin: 10px 0 12px 0;
+    width: 100%;
+    overflow: hidden;
+}
+.progress-bar-inner {
+    background: var(--color-accent);
+    height: 100%;
+    width: 0;
+    border-radius: 4px;
+    transition: width .3s cubic-bezier(.4,0,.2,1);
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 12px 0;
+}
+
+.photo-card {
+    background: var(--color-surface);
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.14);
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    transition: transform .18s cubic-bezier(.4,0,.2,1), box-shadow .18s, opacity .25s;
+    opacity: 1;
+}
+.photo-card:hover {
+    transform: scale(1.025);
+    box-shadow: 0 6px 24px rgba(30,100,180,0.13);
+    z-index: 2;
+}
+.photo-card[style*="opacity: 0.3"] {
+    pointer-events: none;
+    filter: grayscale(0.5) blur(1px);
+}
+.btn[disabled], .image-actions button[disabled] {
+    opacity: 0.5;
+    pointer-events: none;
+    filter: grayscale(0.5);
+}
+.tournament-img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    background: var(--color-img-bg);
+    border: none;
+    border-radius: 0;
+    transition: filter .2s, box-shadow .2s;
+    cursor: pointer;
+}
+.tournament-img:hover {
+    filter: brightness(1.08) drop-shadow(0 2px 8px var(--color-accent));
+}
+.tournament-img[style*="visibility: hidden"] {
+    opacity: 0;
+    pointer-events: none;
+}
+.image-actions {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding: 8px 0 10px 0;
+    background: transparent;
+}
+.image-actions button {
+    background: var(--color-btn-secondary-bg);
+    color: var(--color-accent);
+    border: none;
+    border-radius: 4px;
+    padding: 4px 12px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background .18s;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.image-actions button:hover {
+    background: var(--color-accent);
+    color: #fff;
+}
+.btn {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: .98rem;
+    font-family: inherit;
+    background: var(--color-btn-bg);
+    color: #fff;
+    transition: background .18s, filter .18s;
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+}
+.btn-primary {
+    background: var(--color-primary);
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+}
+.btn-primary:active {
+    filter: brightness(.93);
+}
+.btn:hover, .btn:focus {
+    background: var(--color-btn-hover-bg);
+    filter: brightness(.97);
+}
+.btn-icon {
+    background: transparent;
+    color: var(--color-accent);
+    font-size: 1.2em;
+    padding: 6px 10px;
+}
+.nav-btns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 14px 0 0 0;
+    background: var(--color-surface-nav);
+    border-radius: 8px;
+    justify-content: center;
+}
+footer {
+    background: var(--color-surface);
+    border-radius: 10px;
+    margin-top: 18px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    padding: 10px 18px 18px 18px;
+}
+.modal-content {
+    background: var(--color-surface);
+    color: var(--color-text);
+    padding: 24px;
+    border-radius: 10px;
+    max-width: 96vw;
+    max-height: 92vh;
+    overflow: auto;
+    box-shadow: 0 4px 32px rgba(0,0,0,0.25);
+}
+.modal-content img {
+    border: 2px solid var(--color-accent);
+    border-radius: 8px;
+    margin: 8px 0;
+    max-width: 90vw;
+    max-height: 80vh;
+}
+#modal {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(30,30,30,0.85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+@media (max-width: 700px) {
+    .image-grid {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        gap: 10px;
+    }
+    .photo-card {
+        border-radius: 8px;
+    }
+    .nav-btns {
+        flex-direction: column;
+        gap: 8px;
+        padding: 8px 0 0 0;
+    }
+    .header, footer {
+        padding: 8px 6px;
+    }
+}
