@@ -1,3 +1,33 @@
+# -----------------------------------------------------------------------------
+# FlashLive – Gesture & Face Control Utility
+# -----------------------------------------------------------------------------
+# This program is a desktop application for controlling media, automation, and
+# macros using hand gestures and face expressions via webcam. It features a
+# modern interface, live video preview, quick settings, plugin support, and
+# extensible automation logic.
+#
+# Main features:
+# - Real-time gesture and face recognition (mediapipe/face_recognition ready)
+# - Assign macros or automation scripts to gestures and expressions
+# - Live video overlay with hand/face landmarks and status
+# - Quick settings panel for video, language, sensitivity, and more
+# - Plugin system for extending recognition and actions
+# - Session and profile management
+# - Developer mode for debugging and advanced info
+#
+# Author: JulfyKo
+# -----------------------------------------------------------------------------
+# Program Structure Overview (for quick navigation)
+# - GlobalConfig: Configuration management (JSON/YAML)
+# - RecognitionEngine: Video capture, gesture/face recognition, overlay
+# - LogicEngine: Maps recognition results to actions/macros
+# - MacroEngine: Macro execution for gestures/expressions
+# - AutomationEngine: Automation script runner
+# - PluginManager: Dynamic plugin loader and runner
+# - FlashLiveAPI: API for plugins/macros/external scripts
+# - SessionManager: Session/profile/history management
+# - FlashLiveApp (tk.Tk): Main GUI, settings, video, status, update loop
+# -----------------------------------------------------------------------------
 import tkinter as tk
 from tkinter import ttk, filedialog, messagebox
 import threading

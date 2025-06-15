@@ -1,3 +1,33 @@
+# -----------------------------------------------------------------------------
+# FleshOsu! - Simple Rhythm Game
+# -----------------------------------------------------------------------------
+# This program is a desktop rhythm game inspired by osu!mania, where beats are
+# detected from an audio file and visualized as moving notes. The player must
+# hit the notes as they reach the hit zone, scoring points for accuracy.
+#
+# Main features:
+# - Select any audio file (wav, mp3, ogg, etc.)
+# - Automatic beat detection using librosa
+# - Visualizes beats as moving notes (nodes) on a timeline
+# - Keyboard controls to hit notes, adjust speed, and quit
+# - Real-time scoring, combo, and feedback display
+# - Simple, modern UI using Tkinter (no external graphics)
+# - Audio playback (if simpleaudio is installed)
+#
+# Author: JulfyKo
+# -----------------------------------------------------------------------------
+# Program Structure Overview (for quick navigation)
+# - Configuration: Game constants (colors, sizes, FPS, etc.)
+# - Tkinter Setup: Main window and canvas
+# - File Dialog: Audio file selection
+# - Beat Detection: Async analysis with progress display
+# - Node Class: Represents a moving note
+# - Game State: Variables for score, combo, nodes, etc.
+# - Audio Playback: Play audio in sync with game
+# - Controls: Keyboard event handling
+# - Main Game Loop: Spawning, updating, drawing, and feedback
+# - Cleanup: Remove temp files on exit
+# -----------------------------------------------------------------------------
 import sys
 import time
 import threading

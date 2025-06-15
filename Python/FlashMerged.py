@@ -1,3 +1,42 @@
+# -----------------------------------------------------------------------------
+# FlashMerged - Image Merger Utility
+# -----------------------------------------------------------------------------
+# This program is a desktop application for merging multiple images into a single
+# image, either vertically or horizontally, with options for scaling, offset,
+# padding, and centering. It features a modern, dark-themed interface inspired
+# by VS Code, with drag-and-drop reordering, batch operations, and live preview.
+#
+# Main features:
+# - Add images or entire folders to the merge list
+# - Drag to reorder images, rename, remove, or adjust scale/offset per image
+# - Merge images vertically or horizontally with custom padding and centering
+# - Batch scale or offset all images at once
+# - Live preview with zoom and selection highlighting
+# - Drag or resize images directly in the preview
+# - Export merged image or all originals
+#
+# Author: JulfyKo
+# -----------------------------------------------------------------------------
+# Program Structure Overview (for quick navigation)
+# - ImageLoaderThread: Asynchronous image loader (QThread)
+# - ImageItem: Holds image, scale, offset, and name
+# - ImageMerger (QWidget):
+#   - __init__: Main initialization, UI setup, dark theme
+#   - init_ui: Build all UI panels and controls
+#   - apply_dark_theme: Set VS Code–like palette and styles
+#   - load_images/load_folder: Add images (async)
+#   - on_image_loaded: Handle loaded images
+#   - filter_list/refresh_list: Search and update image list
+#   - move_up/move_down/remove/rename: List operations
+#   - edit_scale/edit_offset/batch_scale/batch_offset: Image adjustments
+#   - update_info: Show info for selected image
+#   - update_preview/update_preview_pixmap: Merge and preview logic
+#   - save_image/export_all: Save merged or all images
+#   - eventFilter: Mouse wheel zoom in preview
+#   - on_preview_mouse_press/move/release: Drag/resize images in preview
+#   - closeEvent: Clean up threads
+# - Main block: Start the application
+# -----------------------------------------------------------------------------
 import sys
 import os
 from PIL import Image

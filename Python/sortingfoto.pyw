@@ -1,3 +1,39 @@
+# -----------------------------------------------------------------------------
+# Photo Tournament - Image Sorting Utility
+# -----------------------------------------------------------------------------
+# This program is a desktop application for sorting and ranking images via a
+# tournament bracket system. Users compare images in pairs (or groups of four)
+# and select their preferred image, progressing through elimination rounds
+# until a single winner is chosen. The app features a modern interface with
+# keyboard shortcuts, undo, tournament tree view, auto-save, and session history.
+#
+# Main features:
+# - Select a folder of images to start a tournament
+# - Compare images in pairs (or groups of four) and select the winner
+# - Supports undo, restart, and tournament tree visualization
+# - Customizable key bindings, image sizes, and tournament settings
+# - Auto-save and restore session on crash/exit
+# - Session history and export of tournament logs
+# - View original images in a zoomable window
+#
+# Author: JulfyKo
+# -----------------------------------------------------------------------------
+# Program Structure Overview (for quick navigation)
+# - PhotoTournament (Tkinter main class):
+#   - __init__: Initialization, settings, and UI setup
+#   - build_ui: Build all UI panels and controls
+#   - load_valid_images: Validate and load image files
+#   - on_resize/on_close: Window events and auto-save
+#   - schedule_autosave/auto_save/check_for_saved_state: Auto-save logic
+#   - start_round/next_match/display_current_choices: Tournament logic
+#   - make_choice/make_choice_by_index/undo: User actions
+#   - view_original: Show original image in zoomable window
+#   - show_tree: Display tournament tree
+#   - open_settings/import_settings: Settings dialog and import
+#   - save_log_to_files/append_session_history: Logging and history
+#   - show_winner/restart: End and restart tournament
+# - Main block: Start the application and select folder
+# -----------------------------------------------------------------------------
 import os
 import random
 import tkinter as tk
