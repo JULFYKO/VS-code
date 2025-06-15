@@ -1,66 +1,5 @@
 // Photo Tournament Organizer (JS version)
 // Author: JulfyKo (ported to JS)
-//
-// -----------------------------------------------------------------------------
-// Photo Tournament Organizer
-//
-// This program is a web application for running photo tournaments, allowing users
-// to compare images in pairs or groups and select winners in each round until the
-// best photo(s) are determined. It features a modern interface with keyboard
-// shortcuts and mouse controls.
-//
-// Main features:
-// - Supports multiple tournament types: Single Elimination, Double Elimination,
-//   Round Robin, and One Round
-// - Compare 2 or 4 photos per match, with hotkeys (D, F, J, K)
-// - Undo previous choices and restore previous state
-// - Auto-save and manual save/load of tournament progress
-// - Shuffle photos each round (optional)
-// - Display tournament tree and match log
-// - Show Top N photos at the end
-// - Dark/light theme toggle
-// - All main functions available via toolbar buttons and keyboard shortcuts
-//
-// Author: JulfyKo
-// -----------------------------------------------------------------------------
-// Program Structure Overview (for quick navigation)
-//
-// - Tournament State & Settings:
-//     - Constants for keys, settings, and DOM elements
-//     - State variables: photo lists, round, match, winners, history, stats
-//
-// - Utility Functions:
-//     - shuffleArray           : Shuffle photo order
-//     - saveState/restoreState : Undo/redo support
-//     - autoSave/manualSave    : Save/load tournament progress
-//     - restoreAutoSave        : Restore session on load
-//
-// - UI Functions:
-//     - buildUI                : Build main photo grid and choice buttons
-//     - updateInfo/Progress    : Update round/match info and progress bar
-//     - displayCurrentChoices  : Show current match photos
-//     - showWinner             : Display winner(s) at end
-//     - showTree/showLogWindow : Show tournament tree/log
-//     - openSettings           : Show settings modal
-//     - viewOriginal           : Show original image in modal
-//     - showModal/closeModal   : Modal dialog helpers
-//
-// - Tournament Logic:
-//     - startTournament        : Start or restart tournament
-//     - nextMatch              : Advance to next match (by type)
-//     - singleEliminationNext  : Single Elimination logic
-//     - doubleEliminationNext  : Double Elimination logic
-//     - roundRobinInit/Next    : Round Robin logic
-//     - oneRoundInit/Next      : One Round logic
-//     - makeChoice/makeChoiceIdx: Handle user selection
-//
-// - Event Handlers:
-//     - Keyboard and button event bindings
-//     - File input and tournament restart
-//
-// - Theme Toggle & Auto-Restore:
-//     - Theme switcher and session restore on load
-// -----------------------------------------------------------------------------
 
 // --- Settings and State ---
 const KEY_LEFT = 'd';
@@ -226,12 +165,9 @@ let losersBracket = [];
 let isLosersRound = false;
 
 // --- UI Functions ---
-let selectedIdx = null; // індекс вибраного фото
-
 function buildUI() {
     imageGrid.innerHTML = '';
     choiceButtonsSpan.innerHTML = '';
-    // selectedIdx не скидаємо тут!
 
     // Якщо фото не завантажені — показати підказку
     if (!allPhotos.length) {
@@ -256,46 +192,23 @@ function buildUI() {
     for (let i = 0; i < numChoices; i++) {
         const card = document.createElement('figure');
         card.className = 'photo-card';
-        card.setAttribute('role', 'img');
-        card.setAttribute('tabindex', '0');
-        card.setAttribute('aria-label', currentChoices[i]?.name || '');
         card.style.transition = 'opacity .25s, transform .25s';
         card.style.opacity = currentChoices[i] ? '1' : '0.3';
         card.title = currentChoices[i]?.name || '';
-        if (selectedIdx === i) card.classList.add('selected');
-
-        // --- Вибір фото кліком ---
-        card.addEventListener('click', function (e) {
-            if (!currentChoices[i]) return;
-            selectPhoto(i);
-        });
-        card.addEventListener('keydown', function (e) {
-            if ((e.key === "Enter" || e.key === " ") && currentChoices[i]) {
-                selectPhoto(i);
-                e.preventDefault();
-            }
-        });
 
         const img = document.createElement('img');
         img.className = 'tournament-img';
         img.alt = currentChoices[i]?.name || '';
         img.style.visibility = currentChoices[i] ? 'visible' : 'hidden';
         img.src = currentChoices[i]?.url || '';
-        img.setAttribute('loading', 'lazy');
         img.addEventListener('dblclick', () => viewOriginal(currentChoices[i]));
         img.title = "Двічі клікніть для перегляду оригіналу";
-        // --- Вибір фото кліком по зображенню ---
-        img.addEventListener('click', function (e) {
-            e.stopPropagation();
-            if (!currentChoices[i]) return;
-            selectPhoto(i);
-        });
         card.appendChild(img);
 
         // Caption
         const caption = document.createElement('figcaption');
         caption.style.textAlign = 'center';
-        caption.style.fontSize = 'var(--font-size-caption)';
+        caption.style.fontSize = '1em';
         caption.style.color = 'var(--color-text-secondary)';
         caption.style.padding = '4px 0 0 0';
         caption.textContent = currentChoices[i]?.name || '';
@@ -307,7 +220,6 @@ function buildUI() {
         const viewBtn = document.createElement('button');
         viewBtn.innerHTML = '<i class="fa fa-eye"></i> Оригінал';
         viewBtn.title = "Переглянути оригінал";
-        viewBtn.setAttribute('aria-label', 'Переглянути оригінал');
         viewBtn.onclick = () => viewOriginal(currentChoices[i]);
         viewBtn.disabled = !currentChoices[i];
         actions.appendChild(viewBtn);
@@ -316,48 +228,41 @@ function buildUI() {
         imageGrid.appendChild(card);
     }
 
-    // Кнопки вибору
+    // Choice buttons
     let choices = [];
     if (numChoices === 2) {
         choices = [
-            { text: `<i class="fa fa-arrow-left"></i> Ліве (D)`, key: KEY_LEFT, idx: 0 },
-            { text: `Праве (F) <i class="fa fa-arrow-right"></i>`, key: KEY_RIGHT, idx: 1 }
+            { text: `<i class="fa fa-arrow-left"></i> Ліве (D)`, key: KEY_LEFT },
+            { text: `Праве (F) <i class="fa fa-arrow-right"></i>`, key: KEY_RIGHT }
         ];
     } else if (numChoices === 4) {
         choices = [
-            { text: `Варіант 1 (D)`, key: KEY_LEFT, idx: 0 },
-            { text: `Варіант 2 (F)`, key: KEY_RIGHT, idx: 1 },
-            { text: `Варіант 3 (J)`, key: KEY_OPTION3, idx: 2 },
-            { text: `Варіант 4 (K)`, key: KEY_OPTION4, idx: 3 }
+            { text: `Варіант 1 (D)`, key: KEY_LEFT },
+            { text: `Варіант 2 (F)`, key: KEY_RIGHT },
+            { text: `Варіант 3 (J)`, key: KEY_OPTION3 },
+            { text: `Варіант 4 (K)`, key: KEY_OPTION4 }
         ];
     }
+    // Кнопки активні лише якщо currentChoices.length === numChoices і всі currentChoices[i] існують
     const enableChoices = currentChoices.length === numChoices && currentChoices.every(Boolean);
-    choices.forEach((c) => {
+    choices.forEach((c, idx) => {
         const btn = document.createElement('button');
-        btn.className = 'btn btn-primary choice-btn';
+        btn.className = 'btn btn-primary';
         btn.innerHTML = c.text;
-        btn.onclick = function (e) {
-            e.preventDefault();
-            selectPhoto(c.idx);
-        };
+        btn.onclick = () => makeChoice(c.key);
         btn.title = "Гаряча клавіша: " + c.key.toUpperCase();
-        btn.setAttribute('aria-label', c.text.replace(/<[^>]+>/g, ''));
         btn.disabled = !enableChoices;
-        if (selectedIdx === c.idx) btn.classList.add('active');
         choiceButtonsSpan.appendChild(btn);
     });
-
     displayCurrentChoices();
     updateInfo();
     updateProgress();
     updateTournamentInfo();
-    highlightSelection();
 }
 
 function updateTournamentInfo() {
-    // Додаємо іконки перед текстом
-    tournamentTypeSpan.innerHTML = `<i class="fa fa-trophy"></i> ${TOURNAMENT_TYPES.find(t => t.value === tournamentType)?.label || tournamentType}`;
-    topNInfoSpan.innerHTML = topNEnabled ? `<i class="fa fa-star"></i> Top N: ${topNValue}` : '';
+    tournamentTypeSpan.textContent = `Тип: ${TOURNAMENT_TYPES.find(t => t.value === tournamentType)?.label || tournamentType}`;
+    topNInfoSpan.textContent = topNEnabled ? `Top N: ${topNValue}` : '';
 }
 
 function updateInfo() {
@@ -406,14 +311,10 @@ function showWinner() {
             if (!p) return;
             const card = document.createElement('figure');
             card.className = 'photo-card';
-            card.setAttribute('role', 'img');
-            card.setAttribute('tabindex', '0');
-            card.setAttribute('aria-label', `${i + 1} місце: ${p.name}`);
             const img = document.createElement('img');
             img.src = p.url;
             img.className = 'tournament-img';
             img.alt = p.name;
-            img.setAttribute('loading', 'lazy');
             img.title = `${i + 1} місце: ${p.name}`;
             card.appendChild(img);
             const caption = document.createElement('figcaption');
@@ -432,14 +333,10 @@ function showWinner() {
         }
         const card = document.createElement('figure');
         card.className = 'photo-card';
-        card.setAttribute('role', 'img');
-        card.setAttribute('tabindex', '0');
-        card.setAttribute('aria-label', p.name);
         const img = document.createElement('img');
         img.src = p.url;
         img.className = 'tournament-img';
         img.alt = p.name;
-        img.setAttribute('loading', 'lazy');
         card.appendChild(img);
         const caption = document.createElement('figcaption');
         caption.textContent = p.name;
@@ -481,73 +378,15 @@ function nextMatch() {
         oneRoundNext();
     }
 }
+
 // --- Single Elimination (короткий) ---
 function singleEliminationNext() {
-    // Кількість матчів у цьому раунді
-    const total = photoPaths.length;
-    const matchesThisRound = Math.floor(total / numChoices);
-    const remainder = total % numChoices;
-
-    // Якщо всі матчі зіграні — переходимо до наступного раунду
-    if (matchNumber >= matchesThisRound) {
-        // Бай (залишки)
-        if (remainder > 0 && matchNumber === matchesThisRound) {
-            for (let i = total - remainder; i < total; i++) {
-                winners.push(photoPaths[i]);
-                matchLog.push({
-                    round,
-                    match: matchNumber + 1,
-                    choices: [photoPaths[i].name],
-                    winner: photoPaths[i].name,
-                    decisionTime: 0,
-                    bye: true
-                });
-            }
-        }
-        // Якщо залишилось 1 фото або Top N
-        if (winners.length === 1 || (topNEnabled && winners.length <= (topNValue > 0 ? topNValue : winners.length))) {
-            photoPaths = winners.slice();
-            showWinner();
-            return;
-        }
-        // Переходимо до наступного раунду
-        photoPaths = winners.slice();
-        winners = [];
-        matchNumber = 0;
-        round++;
-        if (shuffle) shuffleArray(photoPaths);
-        singleEliminationNext();
-        return;
-    }
-
-    // Вибір фото для матчу
-    const start = matchNumber * numChoices;
-    currentChoices = [];
-    for (let i = 0; i < numChoices; i++) {
-        if (photoPaths[start + i]) currentChoices.push(photoPaths[start + i]);
-    }
-    // Якщо не вистачає фото для повного матчу — автоматично просуваємо їх
-    if (currentChoices.length < numChoices) {
-        currentChoices.forEach(photo => {
-            winners.push(photo);
-            matchLog.push({
-                round,
-                match: matchNumber + 1,
-                choices: [photo.name],
-                winner: photo.name,
-                decisionTime: 0,
-                bye: true
-            });
-        });
-        matchNumber++;
-        singleEliminationNext();
-        return;
-    }
-    displayCurrentChoices();
-    updateInfo();
-    updateProgress();
-    updateTournamentInfo();
-    matchNumber++;
+    // ...перенести вашу логіку nextMatch() сюди...
+    // ...existing code for single elimination from previous nextMatch...
+    // ...замініть всі виклики nextMatch() на nextMatch() (бо тепер це роутер по типу турніру)
+    // ...existing code...
+    // (скопіюйте з вашого останнього nextMatch, але замініть setTimeout(nextMatch, 300) на setTimeout(() => nextMatch(), 300))
+    // ...existing code...
 }
 
 // --- Double Elimination (довший) ---
@@ -716,39 +555,6 @@ function makeChoice(key) {
         winners.push(winnerPhoto);
         setTimeout(() => nextMatch(), 300);
     }
-}
-
-// --- Вибір фото (логіка) ---
-function selectPhoto(idx) {
-    if (!currentChoices[idx]) return;
-    selectedIdx = idx;
-    highlightSelection();
-    // Вибір одразу, без затримки
-    makeChoiceIdx(idx);
-}
-
-// --- Підсвічування вибраного фото і кнопки ---
-function highlightSelection() {
-    const cards = imageGrid.querySelectorAll('.photo-card');
-    cards.forEach((card, i) => {
-        if (selectedIdx === i) card.classList.add('selected');
-        else card.classList.remove('selected');
-    });
-    const btns = choiceButtonsSpan.querySelectorAll('.choice-btn');
-    btns.forEach((btn, i) => {
-        if (selectedIdx === i) btn.classList.add('active');
-        else btn.classList.remove('active');
-    });
-}
-
-// --- Вибір через індекс (для кліку по фото) ---
-function makeChoiceIdx(idx) {
-    let key = null;
-    if (numChoices === 2) key = idx === 0 ? KEY_LEFT : KEY_RIGHT;
-    else if (numChoices === 4) key = [KEY_LEFT, KEY_RIGHT, KEY_OPTION3, KEY_OPTION4][idx];
-    if (key) makeChoice(key);
-    selectedIdx = null;
-    highlightSelection();
 }
 
 // --- Event Handlers ---

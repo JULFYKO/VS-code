@@ -12,12 +12,12 @@
         <header class="header">
             <div class="header-main">
                 <h1 class="app-title"><i class="fa-solid fa-trophy"></i> Photo Tournament Organizer</h1>
-                <button id="themeToggleBtn" class="btn btn-icon" title="Змінити тему"><i class="fa fa-moon"></i></button>
+                <button id="themeToggleBtn" class="btn btn-icon" title="Змінити тему" aria-label="Змінити тему"><i class="fa fa-moon"></i></button>
             </div>
             <div id="subtitle" class="subtitle">Швидкий вибір найкращих фото турнірною системою</div>
             <div id="tournamentInfo" class="tournament-info">
-                <span id="tournamentType"></span>
-                <span id="topNInfo"></span>
+                <span id="tournamentType"><i class="fa fa-trophy"></i></span>
+                <span id="topNInfo"><i class="fa fa-star"></i></span>
                 <span id="timer"></span>
             </div>
             <div id="info"></div>
@@ -39,14 +39,14 @@
         <footer>
             <nav class="nav-btns">
                 <input type="file" id="fileInput" multiple accept="image/*" style="display:none;">
-                <button id="loadImagesBtn" class="btn btn-primary" title="Завантажити фото"><i class="fa fa-upload"></i> Завантажити</button>
+                <button id="loadImagesBtn" class="btn btn-primary" title="Завантажити фото" aria-label="Завантажити фото"><i class="fa fa-upload"></i> Завантажити</button>
                 <span id="choiceButtons"></span>
-                <button id="undoBtn" class="btn" title="Скасувати вибір (Z)"><i class="fa fa-rotate-left"></i> Undo (Z)</button>
-                <button id="treeBtn" class="btn" title="Дерево турніру (T)"><i class="fa fa-sitemap"></i> Дерево (T)</button>
-                <button id="settingsBtn" class="btn" title="Налаштування (S)"><i class="fa fa-gear"></i> Налаштування (S)</button>
-                <button id="manualSaveBtn" class="btn" title="Зберегти вручну"><i class="fa fa-save"></i> Зберегти</button>
-                <button id="restartBtn" class="btn" title="Перезапустити турнір"><i class="fa fa-arrows-rotate"></i> Перезапуск</button>
-                <button id="logBtn" class="btn" title="Переглянути лог"><i class="fa fa-list"></i> Лог</button>
+                <button id="undoBtn" class="btn" title="Скасувати вибір (Z)" aria-label="Undo"><i class="fa fa-rotate-left"></i> Undo (Z)</button>
+                <button id="treeBtn" class="btn" title="Дерево турніру (T)" aria-label="Дерево турніру"><i class="fa fa-sitemap"></i> Дерево (T)</button>
+                <button id="settingsBtn" class="btn" title="Налаштування (S)" aria-label="Налаштування"><i class="fa fa-gear"></i> Налаштування (S)</button>
+                <button id="manualSaveBtn" class="btn" title="Зберегти вручну" aria-label="Зберегти вручну"><i class="fa fa-save"></i> Зберегти</button>
+                <button id="restartBtn" class="btn" title="Перезапустити турнір" aria-label="Перезапустити турнір"><i class="fa fa-arrows-rotate"></i> Перезапуск</button>
+                <button id="logBtn" class="btn" title="Переглянути лог" aria-label="Переглянути лог"><i class="fa fa-list"></i> Лог</button>
             </nav>
         </footer>
     </div>
