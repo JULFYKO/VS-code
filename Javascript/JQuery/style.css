@@ -1,0 +1,34 @@
+#blocksArea {
+    margin: 20px 0;
+    min-height: 40px;
+    background: #cacaca;
+}
+.color-block {
+    display: inline-block;
+    width: 60px; height: 60px;
+    margin: 8px;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+#trafficLight {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    background: #cacaca;
+    border-radius: 18px;
+    padding: 16px 24px;
+    width: max-content;
+    box-sizing: border-box;
+}
+.light {
+    width: 36px; height: 36px;
+    border-radius: 50%;
+    background: gray;
+    opacity: 1;
+    border: 2px solid black;
+}
+.light.red.active    { background: red; }
+.light.yellow.active { background: yellow; }
+.light.green.active  { background: green; }
+#switchBtn { margin-top: 10px; }

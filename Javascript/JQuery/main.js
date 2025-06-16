@@ -1,33 +1,23 @@
-let arr = [];
-for (let i = 0; i <= 20; i++) {
-    arr.push(Math.floor(Math.random() * 100));
+function getRandomColor() {
+    return '#' + Math.floor(Math.random()*16777215).toString(16).padStart(6, '0');
 }
-console.log(arr);
-
-arr.forEach((val, i) => console.log(`[${i}] ${val}`));
-
-arr.forEach((val, i) => {
-    if (val % 7 === 0) console.log(`Divisible by 7: [${i}] ${val}`);
+$('#addBlockBtn').on('click', function() {
+    const color = getRandomColor();
+    const $block = $('<div class="color-block"></div>').css('background', color);
+    $('#blocksArea').append($block);
+});
+$('#blocksArea').on('click', '.color-block', function() {
+    $(this).remove();
 });
 
-let sortedArr = [...arr].sort((a, b) => b - a);
-console.log("Sorted array:", sortedArr);
+let lightIdx = 0;
+const $lights = $('#trafficLight .light');
+function updateTrafficLight(idx) {
+    $lights.removeClass('active');
 
-let modifiedArr = [...arr];
-modifiedArr.fill(0, Math.floor(modifiedArr.length / 2));
-console.log("Modified array:", modifiedArr);
-
-let splicedArr = arr.slice(3);
-console.log("Array:", splicedArr);
-
-arr.forEach((val, i) => {
-    arr.slice(i + 1).forEach((v, j) => {
-        if (val === v) console.log(`Duplicate: [${i}] ${val} and [${i + 1 + j}] ${v}`);
-    });
+}
+updateTrafficLight(lightIdx);
+$('#switchBtn').on('click', function() {
+    lightIdx = (lightIdx + 1) % 3;
+    updateTrafficLight(lightIdx);
 });
-
-let Newarr = arr.slice(1, -1);
-console.log("New array:", Newarr, "\nold array:", arr);
-
-let sum = arr.filter(x => x % 2 === 0).length;
-console.log("Sum:", sum);
