@@ -14,7 +14,11 @@ let lightIdx = 0;
 const $lights = $('#trafficLight .light');
 function updateTrafficLight(idx) {
     $lights.removeClass('active');
-
+    $lights.each(function(i) {
+        if (i === idx) {
+            $(this).addClass('active');
+        }
+    });
 }
 updateTrafficLight(lightIdx);
 $('#switchBtn').on('click', function() {
