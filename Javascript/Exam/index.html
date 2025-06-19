@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather SPA</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="weather-app">
+        <header>
+            <h1>Weather Forecast</h1>
+            <div class="tabs">
+                <button id="tab-today" class="tab active">Today</button>
+                <button id="tab-5day" class="tab">5-day forecast</button>
+            </div>
+            <div class="search-bar">
+                <input type="text" id="cityInput" placeholder="Введіть місто..." autocomplete="off">
+                <button id="searchBtn">Пошук</button>
+            </div>
+        </header>
+        <main>
+            <div id="errorMsg" class="error-msg" style="display:none;"></div>
+            <section id="todaySection">
+                <div id="today-main" class="today-main"></div>
+                <div id="today-hourly" class="today-hourly"></div>
+                <div id="today-nearby" class="today-nearby"></div>
+            </section>
+            <section id="forecastSection" style="display:none;">
+                <div id="forecast-days" class="forecast-days"></div>
+                <div id="forecast-hourly" class="forecast-hourly"></div>
+            </section>
+        </main>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

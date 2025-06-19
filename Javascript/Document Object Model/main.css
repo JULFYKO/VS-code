@@ -1,0 +1,39 @@
+.tree li:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.resizable {
+    width: 220px;
+    height: 80px;
+    border: 2px solid #888;
+    position: relative;
+    padding: 8px;
+    resize: none;
+    overflow: auto;
+    background: #f9f9f9;
+}
+
+.resizer {
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: #ccc;
+    cursor: se-resize;
+    border-radius: 3px;
+}
+
+.book.selected {
+    background: orange;
+}
+
+.book {
+    cursor: pointer;
+    padding: 3px 8px;
+}
+
+.book.ctrl-selected {
+    background: #ffd580;
+}
