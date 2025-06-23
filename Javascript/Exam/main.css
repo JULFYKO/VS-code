@@ -1,0 +1,149 @@
+/* styles.css */
+:root {
+  --primary-bg: #f0f4f8;
+  --card-bg: #ffffff;
+  --accent: #4a90e2;
+  --text: #333;
+  --muted: #666;
+  --radius: 8px;
+  --gap: 16px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  background: var(--primary-bg);
+  color: var(--text);
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: var(--gap);
+  margin-bottom: var(--gap);
+}
+
+#city-input {
+  padding: 0.75rem 1rem;
+  border: 2px solid #ccc;
+  border-radius: var(--radius);
+  font-size: 1rem;
+  transition: border-color 0.2s;
+}
+
+#city-input:focus {
+  border-color: var(--accent);
+  outline: none;
+}
+
+#search-btn {
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: var(--radius);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+}
+
+#search-btn:hover {
+  background: darken(var(--accent), 10%);
+}
+
+#search-btn:active {
+  transform: scale(0.98);
+}
+
+nav {
+  display: flex;
+  border-bottom: 2px solid #ddd;
+  margin-bottom: var(--gap);
+}
+
+.tab-btn {
+  flex: 1;
+  padding: 0.75rem;
+  background: transparent;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.2s;
+  color: var(--muted);
+}
+
+.tab-btn.active {
+  color: var(--accent);
+  border-bottom: 3px solid var(--accent);
+}
+
+.tab-content {
+  display: none;
+  animation: fadeIn 0.3s ease-out;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(5px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.block {
+  background: var(--card-bg);
+  padding: var(--gap);
+  margin-bottom: var(--gap);
+  border-radius: var(--radius);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.hour, .nearby-city, .day-summary {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.hour img, .day-summary img {
+  width: 36px;
+  height: 36px;
+}
+
+#forecast-summary {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 1rem;
+}
+
+.day-summary {
+  flex-direction: column;
+  text-align: center;
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.2s;
+  border-radius: var(--radius);
+}
+
+.day-summary.active,
+.day-summary:hover {
+  background: var(--primary-bg);
+  transform: translateY(-2px);
+}
+
+.hidden {
+  display: none !important;
+}
